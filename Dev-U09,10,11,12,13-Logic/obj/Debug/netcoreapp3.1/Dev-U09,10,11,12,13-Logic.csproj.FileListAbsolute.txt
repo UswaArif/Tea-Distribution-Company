@@ -1,0 +1,5 @@
+C:\BSCS\cs261f22finalpid33\Dev-U09,10,11,12,13-Logic\obj\Debug\netcoreapp3.1\Dev-U09,10,11,12,13-Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\BSCS\cs261f22finalpid33\Dev-U09,10,11,12,13-Logic\obj\Debug\netcoreapp3.1\Dev-U09,10,11,12,13-Logic.AssemblyInfoInputs.cache
+C:\BSCS\cs261f22finalpid33\Dev-U09,10,11,12,13-Logic\obj\Debug\netcoreapp3.1\Dev-U09,10,11,12,13-Logic.AssemblyInfo.cs
+C:\BSCS\cs261f22finalpid33\Dev-U09,10,11,12,13-Logic\obj\Debug\netcoreapp3.1\Dev-U09,10,11,12,13-Logic.csproj.CoreCompileInputs.cache
+C:\BSCS\cs261f22finalpid33\Dev-U09,10,11,12,13-Logic\obj\Debug\netcoreapp3.1\Dev-U09,10,11,12,13-Logic.csproj.AssemblyReference.cache
