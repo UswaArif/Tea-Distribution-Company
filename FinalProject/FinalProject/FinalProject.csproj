@@ -46,16 +46,196 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrder.Designer.cs">
+      <DependentUpon>AddOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRider.Designer.cs">
+      <DependentUpon>AddRider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\area.cs" />
+    <Compile Include="BL\CustomerBL.cs" />
+    <Compile Include="BL\EmployeeBL.cs" />
+    <Compile Include="BL\OrderBL.cs" />
+    <Compile Include="BL\ProductBL.cs" />
+    <Compile Include="BL\RiderBL.cs" />
     <Compile Include="BL\UserBL.cs" />
+    <Compile Include="CompanyProfit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyProfit.Designer.cs">
+      <DependentUpon>CompanyProfit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveredOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveredOrders.Designer.cs">
+      <DependentUpon>DeliveredOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deliveries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deliveries.Designer.cs">
+      <DependentUpon>Deliveries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DL\CustomerDL.cs" />
+    <Compile Include="DL\EmployeeDL.cs" />
+    <Compile Include="DL\OrderDL.cs" />
+    <Compile Include="DL\ProductDL.cs" />
+    <Compile Include="DL\RiderDL.cs" />
     <Compile Include="DL\UserDL.cs" />
+    <Compile Include="EditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCustomer.Designer.cs">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEmployee.Designer.cs">
+      <DependentUpon>EditEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditOrder.Designer.cs">
+      <DependentUpon>EditOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProduct.Designer.cs">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditRider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditRider.Designer.cs">
+      <DependentUpon>EditRider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeMenu.Designer.cs">
+      <DependentUpon>EmployeeMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeProfile.Designer.cs">
+      <DependentUpon>EmployeeProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSalaryStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSalaryStatus.Designer.cs">
+      <DependentUpon>EmployeeSalaryStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpenseManagement.Designer.cs">
+      <DependentUpon>ExpenseManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="ForgetPassword.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ForgetPassword.Designer.cs">
       <DependentUpon>ForgetPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManagerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerMenu.Designer.cs">
+      <DependentUpon>ManagerMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="OrderedProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderedProducts.Designer.cs">
+      <DependentUpon>OrderedProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentOfCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentOfCustomers.Designer.cs">
+      <DependentUpon>PaymentOfCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RiderMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderMenu.Designer.cs">
+      <DependentUpon>RiderMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderProfile.Designer.cs">
+      <DependentUpon>RiderProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RiderSalaryStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiderSalaryStatus.Designer.cs">
+      <DependentUpon>RiderSalaryStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchCustomer.Designer.cs">
+      <DependentUpon>SearchCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchEmployee.Designer.cs">
+      <DependentUpon>SearchEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchOrder.Designer.cs">
+      <DependentUpon>SearchOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchProduct.Designer.cs">
+      <DependentUpon>SearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchRider.Designer.cs">
+      <DependentUpon>SearchRider.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,8 +248,108 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCustomer.Designer.cs">
+      <DependentUpon>ViewCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewEmployee.Designer.cs">
+      <DependentUpon>ViewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewOrder.Designer.cs">
+      <DependentUpon>ViewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewProduct.Designer.cs">
+      <DependentUpon>ViewProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRider.Designer.cs">
+      <DependentUpon>ViewRider.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrder.resx">
+      <DependentUpon>AddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRider.resx">
+      <DependentUpon>AddRider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyProfit.resx">
+      <DependentUpon>CompanyProfit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliveredOrders.resx">
+      <DependentUpon>DeliveredOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deliveries.resx">
+      <DependentUpon>Deliveries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCustomer.resx">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmployee.resx">
+      <DependentUpon>EditEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditOrder.resx">
+      <DependentUpon>EditOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProduct.resx">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRider.resx">
+      <DependentUpon>EditRider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeMenu.resx">
+      <DependentUpon>EmployeeMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeProfile.resx">
+      <DependentUpon>EmployeeProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSalaryStatus.resx">
+      <DependentUpon>EmployeeSalaryStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseManagement.resx">
+      <DependentUpon>ExpenseManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ForgetPassword.resx">
       <DependentUpon>ForgetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerMenu.resx">
+      <DependentUpon>ManagerMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\FinalProject.ForgetPassword.resources" />
+    <EmbeddedResource Include="obj\Debug\FinalProject.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\FinalProject.SignIn.resources" />
+    <EmbeddedResource Include="obj\Debug\FinalProject.SignUp.resources" />
+    <EmbeddedResource Include="OrderedProducts.resx">
+      <DependentUpon>OrderedProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentOfCustomers.resx">
+      <DependentUpon>PaymentOfCustomers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,12 +361,60 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RiderMenu.resx">
+      <DependentUpon>RiderMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderProfile.resx">
+      <DependentUpon>RiderProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiderSalaryStatus.resx">
+      <DependentUpon>RiderSalaryStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCustomer.resx">
+      <DependentUpon>SearchCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchEmployee.resx">
+      <DependentUpon>SearchEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchOrder.resx">
+      <DependentUpon>SearchOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchProduct.resx">
+      <DependentUpon>SearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchRider.resx">
+      <DependentUpon>SearchRider.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCustomer.resx">
+      <DependentUpon>ViewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewEmployee.resx">
+      <DependentUpon>ViewEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewOrder.resx">
+      <DependentUpon>ViewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewProduct.resx">
+      <DependentUpon>ViewProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRider.resx">
+      <DependentUpon>ViewRider.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\FinalProject.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\FinalProject.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\FinalProject.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\FinalProject.csproj.GenerateResource.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -108,6 +436,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\FinalProject.exe" />
+    <Content Include="bin\Debug\FinalProject.pdb" />
+    <Content Include="obj\Debug\FinalProject.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\FinalProject.exe" />
+    <Content Include="obj\Debug\FinalProject.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\3022495.png" />
+    <None Include="Resources\po1.png" />
+    <None Include="Resources\images %282%29.jpg" />
+    <None Include="Resources\po.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

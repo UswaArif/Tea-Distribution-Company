@@ -29,285 +29,316 @@ namespace FinalProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtDeliveryDate = new System.Windows.Forms.TextBox();
-            this.txtRidrName = new System.Windows.Forms.TextBox();
-            this.checkDeliveredYes = new System.Windows.Forms.CheckBox();
-            this.checkPaidNo = new System.Windows.Forms.CheckBox();
-            this.checkDeliveredNo = new System.Windows.Forms.CheckBox();
-            this.checkPaidYes = new System.Windows.Forms.CheckBox();
-            this.lblOrderPaid = new System.Windows.Forms.Label();
-            this.lblOrderDelivered = new System.Windows.Forms.Label();
-            this.lblDeliveryDate = new System.Windows.Forms.Label();
-            this.lblRider = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.txtOrderId = new System.Windows.Forms.TextBox();
-            this.txtProductName = new System.Windows.Forms.TextBox();
-            this.txtCNIC = new System.Windows.Forms.TextBox();
-            this.txtMonth = new System.Windows.Forms.TextBox();
-            this.txtCustomerName = new System.Windows.Forms.TextBox();
-            this.lblCNIC = new System.Windows.Forms.Label();
-            this.lblOrderId = new System.Windows.Forms.Label();
-            this.lblAddProduct = new System.Windows.Forms.Label();
-            this.lblMonth = new System.Windows.Forms.Label();
-            this.lblCustomerName = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.SizeCombox = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.ProductPricetxt = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.ProductExpirytxt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtDeliveryDate
+            // pictureBox1
             // 
-            this.txtDeliveryDate.Location = new System.Drawing.Point(536, 470);
-            this.txtDeliveryDate.Name = "txtDeliveryDate";
-            this.txtDeliveryDate.Size = new System.Drawing.Size(480, 29);
-            this.txtDeliveryDate.TabIndex = 57;
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
-            // txtRidrName
+            // checkBox4
             // 
-            this.txtRidrName.Location = new System.Drawing.Point(536, 543);
-            this.txtRidrName.Name = "txtRidrName";
-            this.txtRidrName.Size = new System.Drawing.Size(480, 29);
-            this.txtRidrName.TabIndex = 56;
+            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(436, 157);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(40, 17);
+            this.checkBox4.TabIndex = 55;
+            this.checkBox4.Text = "No";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // checkDeliveredYes
+            // checkBox3
             // 
-            this.checkDeliveredYes.AutoSize = true;
-            this.checkDeliveredYes.Location = new System.Drawing.Point(536, 681);
-            this.checkDeliveredYes.Name = "checkDeliveredYes";
-            this.checkDeliveredYes.Size = new System.Drawing.Size(72, 29);
-            this.checkDeliveredYes.TabIndex = 55;
-            this.checkDeliveredYes.Text = "Yes";
-            this.checkDeliveredYes.UseVisualStyleBackColor = true;
+            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(303, 157);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(44, 17);
+            this.checkBox3.TabIndex = 54;
+            this.checkBox3.Text = "Yes";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // checkPaidNo
+            // checkBox2
             // 
-            this.checkPaidNo.AutoSize = true;
-            this.checkPaidNo.Location = new System.Drawing.Point(696, 615);
-            this.checkPaidNo.Name = "checkPaidNo";
-            this.checkPaidNo.Size = new System.Drawing.Size(63, 29);
-            this.checkPaidNo.TabIndex = 54;
-            this.checkPaidNo.Text = "No";
-            this.checkPaidNo.UseVisualStyleBackColor = true;
+            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(436, 122);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(40, 17);
+            this.checkBox2.TabIndex = 53;
+            this.checkBox2.Text = "No";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // checkDeliveredNo
+            // checkBox1
             // 
-            this.checkDeliveredNo.AutoSize = true;
-            this.checkDeliveredNo.Location = new System.Drawing.Point(696, 681);
-            this.checkDeliveredNo.Name = "checkDeliveredNo";
-            this.checkDeliveredNo.Size = new System.Drawing.Size(63, 29);
-            this.checkDeliveredNo.TabIndex = 53;
-            this.checkDeliveredNo.Text = "No";
-            this.checkDeliveredNo.UseVisualStyleBackColor = true;
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(303, 122);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(44, 17);
+            this.checkBox1.TabIndex = 52;
+            this.checkBox1.Text = "Yes";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // checkPaidYes
+            // button2
             // 
-            this.checkPaidYes.AutoSize = true;
-            this.checkPaidYes.Location = new System.Drawing.Point(536, 615);
-            this.checkPaidYes.Name = "checkPaidYes";
-            this.checkPaidYes.Size = new System.Drawing.Size(72, 29);
-            this.checkPaidYes.TabIndex = 52;
-            this.checkPaidYes.Text = "Yes";
-            this.checkPaidYes.UseVisualStyleBackColor = true;
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(653, 67);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 32);
+            this.button2.TabIndex = 57;
+            this.button2.Text = "Add More";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // lblOrderPaid
+            // panel2
             // 
-            this.lblOrderPaid.AutoSize = true;
-            this.lblOrderPaid.Location = new System.Drawing.Point(69, 616);
-            this.lblOrderPaid.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblOrderPaid.Name = "lblOrderPaid";
-            this.lblOrderPaid.Size = new System.Drawing.Size(112, 25);
-            this.lblOrderPaid.TabIndex = 51;
-            this.lblOrderPaid.Text = "Order Paid:";
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.panel2.Controls.Add(this.dateTimePicker1);
+            this.panel2.Controls.Add(this.checkBox4);
+            this.panel2.Controls.Add(this.checkBox3);
+            this.panel2.Controls.Add(this.checkBox2);
+            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.SizeCombox);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.ProductPricetxt);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.ProductExpirytxt);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Location = new System.Drawing.Point(72, 127);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(671, 253);
+            this.panel2.TabIndex = 56;
             // 
-            // lblOrderDelivered
+            // dateTimePicker1
             // 
-            this.lblOrderDelivered.AutoSize = true;
-            this.lblOrderDelivered.Location = new System.Drawing.Point(69, 685);
-            this.lblOrderDelivered.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblOrderDelivered.Name = "lblOrderDelivered";
-            this.lblOrderDelivered.Size = new System.Drawing.Size(155, 25);
-            this.lblOrderDelivered.TabIndex = 50;
-            this.lblOrderDelivered.Text = "Order Delivered:";
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dateTimePicker1.Location = new System.Drawing.Point(303, 192);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 56;
             // 
-            // lblDeliveryDate
+            // label2
             // 
-            this.lblDeliveryDate.AutoSize = true;
-            this.lblDeliveryDate.Location = new System.Drawing.Point(69, 488);
-            this.lblDeliveryDate.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblDeliveryDate.Name = "lblDeliveryDate";
-            this.lblDeliveryDate.Size = new System.Drawing.Size(185, 25);
-            this.lblDeliveryDate.TabIndex = 49;
-            this.lblDeliveryDate.Text = "Enter Delivery Date:";
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(51, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 16);
+            this.label2.TabIndex = 40;
+            this.label2.Text = "Select Customer";
             // 
-            // lblRider
+            // label8
             // 
-            this.lblRider.AutoSize = true;
-            this.lblRider.Location = new System.Drawing.Point(69, 558);
-            this.lblRider.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblRider.Name = "lblRider";
-            this.lblRider.Size = new System.Drawing.Size(171, 25);
-            this.lblRider.TabIndex = 48;
-            this.lblRider.Text = "Enter Rider Name:";
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(51, 49);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(92, 16);
+            this.label8.TabIndex = 41;
+            this.label8.Text = "Enter Order ID";
             // 
-            // btnAdd
+            // SizeCombox
             // 
-            this.btnAdd.Location = new System.Drawing.Point(1084, 728);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(144, 47);
-            this.btnAdd.TabIndex = 47;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.SizeCombox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SizeCombox.FormattingEnabled = true;
+            this.SizeCombox.Items.AddRange(new object[] {
+            "Small",
+            "Medium",
+            "Large"});
+            this.SizeCombox.Location = new System.Drawing.Point(303, 8);
+            this.SizeCombox.Name = "SizeCombox";
+            this.SizeCombox.Size = new System.Drawing.Size(316, 21);
+            this.SizeCombox.TabIndex = 51;
             // 
-            // btnBack
+            // label6
             // 
-            this.btnBack.Location = new System.Drawing.Point(1252, 728);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(144, 47);
-            this.btnBack.TabIndex = 46;
-            this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(51, 192);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 16);
+            this.label6.TabIndex = 45;
+            this.label6.Text = "Enter Date";
             // 
-            // txtOrderId
+            // ProductPricetxt
             // 
-            this.txtOrderId.Location = new System.Drawing.Point(536, 139);
-            this.txtOrderId.Name = "txtOrderId";
-            this.txtOrderId.Size = new System.Drawing.Size(480, 29);
-            this.txtOrderId.TabIndex = 45;
+            this.ProductPricetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ProductPricetxt.Location = new System.Drawing.Point(303, 85);
+            this.ProductPricetxt.Name = "ProductPricetxt";
+            this.ProductPricetxt.Size = new System.Drawing.Size(316, 20);
+            this.ProductPricetxt.TabIndex = 48;
             // 
-            // txtProductName
+            // label4
             // 
-            this.txtProductName.Location = new System.Drawing.Point(536, 226);
-            this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(480, 29);
-            this.txtProductName.TabIndex = 44;
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(51, 156);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(112, 16);
+            this.label4.TabIndex = 43;
+            this.label4.Text = "Order Delievered";
             // 
-            // txtCNIC
+            // label3
             // 
-            this.txtCNIC.Location = new System.Drawing.Point(536, 408);
-            this.txtCNIC.Name = "txtCNIC";
-            this.txtCNIC.Size = new System.Drawing.Size(480, 29);
-            this.txtCNIC.TabIndex = 43;
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(51, 85);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(115, 16);
+            this.label3.TabIndex = 42;
+            this.label3.Text = "Enter Order Month";
             // 
-            // txtMonth
+            // ProductExpirytxt
             // 
-            this.txtMonth.Location = new System.Drawing.Point(536, 307);
-            this.txtMonth.Name = "txtMonth";
-            this.txtMonth.Size = new System.Drawing.Size(480, 29);
-            this.txtMonth.TabIndex = 42;
+            this.ProductExpirytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ProductExpirytxt.Location = new System.Drawing.Point(303, 49);
+            this.ProductExpirytxt.Name = "ProductExpirytxt";
+            this.ProductExpirytxt.Size = new System.Drawing.Size(316, 20);
+            this.ProductExpirytxt.TabIndex = 50;
             // 
-            // txtCustomerName
+            // label5
             // 
-            this.txtCustomerName.Location = new System.Drawing.Point(536, 41);
-            this.txtCustomerName.Name = "txtCustomerName";
-            this.txtCustomerName.Size = new System.Drawing.Size(480, 29);
-            this.txtCustomerName.TabIndex = 41;
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(51, 121);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 16);
+            this.label5.TabIndex = 44;
+            this.label5.Text = "Oder Paid";
             // 
-            // lblCNIC
+            // button1
             // 
-            this.lblCNIC.AutoSize = true;
-            this.lblCNIC.Location = new System.Drawing.Point(69, 412);
-            this.lblCNIC.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblCNIC.Name = "lblCNIC";
-            this.lblCNIC.Size = new System.Drawing.Size(118, 25);
-            this.lblCNIC.TabIndex = 40;
-            this.lblCNIC.Text = "Enter CNIC:";
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(653, 405);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 32);
+            this.button1.TabIndex = 54;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // lblOrderId
+            // panel1
             // 
-            this.lblOrderId.AutoSize = true;
-            this.lblOrderId.Location = new System.Drawing.Point(69, 139);
-            this.lblOrderId.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblOrderId.Name = "lblOrderId";
-            this.lblOrderId.Size = new System.Drawing.Size(143, 25);
-            this.lblOrderId.TabIndex = 39;
-            this.lblOrderId.Text = "Enter Order ID:";
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(1, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(798, 51);
+            this.panel1.TabIndex = 55;
             // 
-            // lblAddProduct
+            // label1
             // 
-            this.lblAddProduct.AutoSize = true;
-            this.lblAddProduct.Location = new System.Drawing.Point(69, 226);
-            this.lblAddProduct.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblAddProduct.Name = "lblAddProduct";
-            this.lblAddProduct.Size = new System.Drawing.Size(193, 25);
-            this.lblAddProduct.TabIndex = 38;
-            this.lblAddProduct.Text = "Enter Product Name:";
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(305, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(147, 31);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Add Order";
             // 
-            // lblMonth
+            // button11
             // 
-            this.lblMonth.AutoSize = true;
-            this.lblMonth.Location = new System.Drawing.Point(69, 313);
-            this.lblMonth.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblMonth.Name = "lblMonth";
-            this.lblMonth.Size = new System.Drawing.Size(124, 25);
-            this.lblMonth.TabIndex = 37;
-            this.lblMonth.Text = "Enter Month:";
-            // 
-            // lblCustomerName
-            // 
-            this.lblCustomerName.AutoSize = true;
-            this.lblCustomerName.Location = new System.Drawing.Point(69, 47);
-            this.lblCustomerName.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblCustomerName.Name = "lblCustomerName";
-            this.lblCustomerName.Size = new System.Drawing.Size(154, 25);
-            this.lblCustomerName.TabIndex = 36;
-            this.lblCustomerName.Text = "Enter Customer:";
+            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button11.FlatAppearance.BorderSize = 2;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Location = new System.Drawing.Point(557, 405);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(90, 32);
+            this.button11.TabIndex = 53;
+            this.button11.Text = "Add";
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // AddOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1459, 835);
-            this.Controls.Add(this.txtDeliveryDate);
-            this.Controls.Add(this.txtRidrName);
-            this.Controls.Add(this.checkDeliveredYes);
-            this.Controls.Add(this.checkPaidNo);
-            this.Controls.Add(this.checkDeliveredNo);
-            this.Controls.Add(this.checkPaidYes);
-            this.Controls.Add(this.lblOrderPaid);
-            this.Controls.Add(this.lblOrderDelivered);
-            this.Controls.Add(this.lblDeliveryDate);
-            this.Controls.Add(this.lblRider);
-            this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.txtOrderId);
-            this.Controls.Add(this.txtProductName);
-            this.Controls.Add(this.txtCNIC);
-            this.Controls.Add(this.txtMonth);
-            this.Controls.Add(this.txtCustomerName);
-            this.Controls.Add(this.lblCNIC);
-            this.Controls.Add(this.lblOrderId);
-            this.Controls.Add(this.lblAddProduct);
-            this.Controls.Add(this.lblMonth);
-            this.Controls.Add(this.lblCustomerName);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.button11);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AddOrder";
             this.Text = "AddOrder";
+            this.Load += new System.EventHandler(this.AddOrder_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtDeliveryDate;
-        private System.Windows.Forms.TextBox txtRidrName;
-        private System.Windows.Forms.CheckBox checkDeliveredYes;
-        private System.Windows.Forms.CheckBox checkPaidNo;
-        private System.Windows.Forms.CheckBox checkDeliveredNo;
-        private System.Windows.Forms.CheckBox checkPaidYes;
-        private System.Windows.Forms.Label lblOrderPaid;
-        private System.Windows.Forms.Label lblOrderDelivered;
-        private System.Windows.Forms.Label lblDeliveryDate;
-        private System.Windows.Forms.Label lblRider;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.TextBox txtOrderId;
-        private System.Windows.Forms.TextBox txtProductName;
-        private System.Windows.Forms.TextBox txtCNIC;
-        private System.Windows.Forms.TextBox txtMonth;
-        private System.Windows.Forms.TextBox txtCustomerName;
-        private System.Windows.Forms.Label lblCNIC;
-        private System.Windows.Forms.Label lblOrderId;
-        private System.Windows.Forms.Label lblAddProduct;
-        private System.Windows.Forms.Label lblMonth;
-        private System.Windows.Forms.Label lblCustomerName;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ComboBox SizeCombox;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox ProductPricetxt;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox ProductExpirytxt;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button11;
     }
 }

@@ -25,5 +25,10 @@ namespace FinalProject
             ProductDL.addIntoProductList(newProduct);
             //ProductDL.storeProductIntoFile;
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

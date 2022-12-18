@@ -29,131 +29,180 @@ namespace FinalProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnBack = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhoneNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Salary = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CNIC = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DeliveryDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RiderName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnBack
+            // panel1
             // 
-            this.btnBack.Location = new System.Drawing.Point(1361, 723);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(135, 42);
-            this.btnBack.TabIndex = 10;
-            this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(1, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(798, 51);
+            this.panel1.TabIndex = 55;
             // 
-            // btnAdd
+            // label1
             // 
-            this.btnAdd.Location = new System.Drawing.Point(1200, 723);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(135, 42);
-            this.btnAdd.TabIndex = 9;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(305, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(159, 31);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "View Order";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Name,
-            this.Id,
-            this.PhoneNumber,
-            this.Salary,
-            this.CNIC,
-            this.DeliveryDate,
-            this.RiderName});
-            this.dataGridView1.Location = new System.Drawing.Point(46, 28);
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column8,
+            this.Column9});
+            this.dataGridView1.Location = new System.Drawing.Point(26, 78);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 72;
-            this.dataGridView1.RowTemplate.Height = 31;
-            this.dataGridView1.Size = new System.Drawing.Size(1127, 606);
-            this.dataGridView1.TabIndex = 8;
+            this.dataGridView1.Size = new System.Drawing.Size(749, 295);
+            this.dataGridView1.TabIndex = 56;
             // 
-            // Name
+            // Column1
             // 
-            this.Name.HeaderText = "Customer Name";
-            this.Name.MinimumWidth = 9;
-            this.Name.Name = "Name";
-            this.Name.Width = 175;
+            this.Column1.HeaderText = "Customer";
+            this.Column1.Name = "Column1";
             // 
-            // Id
+            // Column2
             // 
-            this.Id.HeaderText = "Order ID";
-            this.Id.MinimumWidth = 9;
-            this.Id.Name = "Id";
-            this.Id.Width = 175;
+            this.Column2.HeaderText = "Order ID";
+            this.Column2.Name = "Column2";
             // 
-            // PhoneNumber
+            // Column3
             // 
-            this.PhoneNumber.HeaderText = "Product Name";
-            this.PhoneNumber.MinimumWidth = 9;
-            this.PhoneNumber.Name = "PhoneNumber";
-            this.PhoneNumber.Width = 175;
+            this.Column3.HeaderText = "Order Month";
+            this.Column3.Name = "Column3";
             // 
-            // Salary
+            // Column4
             // 
-            this.Salary.HeaderText = "Month";
-            this.Salary.MinimumWidth = 9;
-            this.Salary.Name = "Salary";
-            this.Salary.Width = 175;
+            this.Column4.HeaderText = "Order Paid";
+            this.Column4.Name = "Column4";
             // 
-            // CNIC
+            // Column5
             // 
-            this.CNIC.HeaderText = "CNIC";
-            this.CNIC.MinimumWidth = 9;
-            this.CNIC.Name = "CNIC";
-            this.CNIC.Width = 175;
+            this.Column5.HeaderText = "Order Delivered";
+            this.Column5.Name = "Column5";
             // 
-            // DeliveryDate
+            // Column6
             // 
-            this.DeliveryDate.HeaderText = "Delivery Date";
-            this.DeliveryDate.MinimumWidth = 9;
-            this.DeliveryDate.Name = "DeliveryDate";
-            this.DeliveryDate.Width = 175;
+            this.Column6.HeaderText = "Date";
+            this.Column6.Name = "Column6";
             // 
-            // RiderName
+            // Column8
             // 
-            this.RiderName.HeaderText = "Rider Name";
-            this.RiderName.MinimumWidth = 9;
-            this.RiderName.Name = "RiderName";
-            this.RiderName.Width = 175;
+            this.Column8.HeaderText = "Edit";
+            this.Column8.Name = "Column8";
+            this.Column8.Text = "Edit";
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Remove";
+            this.Column9.Name = "Column9";
+            this.Column9.Text = "Remove";
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(685, 406);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 32);
+            this.button1.TabIndex = 58;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button11.FlatAppearance.BorderSize = 2;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Location = new System.Drawing.Point(589, 406);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(90, 32);
+            this.button11.TabIndex = 57;
+            this.button11.Text = "Add";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // ViewOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1540, 816);
-            this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.btnAdd);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button11);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ViewOrder";
             this.Text = "ViewOrder";
             this.Load += new System.EventHandler(this.ViewOrder_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNumber;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Salary;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CNIC;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DeliveryDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RiderName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewButtonColumn Column8;
+        private System.Windows.Forms.DataGridViewButtonColumn Column9;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button11;
     }
 }

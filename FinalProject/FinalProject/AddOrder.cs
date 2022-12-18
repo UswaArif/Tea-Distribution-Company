@@ -31,5 +31,10 @@ namespace FinalProject
             OrderBL addOrder = new OrderBL(txtOrderId.Text, Customer, p, txtMonth.Text, false, rider, txtDeliveryDate.Text);
             OrderDL.enQueueOrder(addOrder);
         }
+
+        private void AddOrder_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
