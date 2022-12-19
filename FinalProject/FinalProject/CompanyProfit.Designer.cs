@@ -29,68 +29,68 @@ namespace FinalProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Amountlbl = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.ProductThresholdtxt = new System.Windows.Forms.TextBox();
-            this.ProductPricetxt = new System.Windows.Forms.TextBox();
+            this.Salarytxt = new System.Windows.Forms.TextBox();
+            this.Vehicletxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.ProductTotalSelledtxt = new System.Windows.Forms.TextBox();
+            this.TotalSalestxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.ProductExpirytxt = new System.Windows.Forms.TextBox();
+            this.FuelExpensestxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // Backbtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(689, 401);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 64;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Backbtn.FlatAppearance.BorderSize = 2;
+            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backbtn.Location = new System.Drawing.Point(689, 401);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.TabIndex = 64;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.Amountlbl);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.ProductThresholdtxt);
-            this.panel2.Controls.Add(this.ProductPricetxt);
+            this.panel2.Controls.Add(this.Salarytxt);
+            this.panel2.Controls.Add(this.Vehicletxt);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.ProductTotalSelledtxt);
+            this.panel2.Controls.Add(this.TotalSalestxt);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.ProductExpirytxt);
+            this.panel2.Controls.Add(this.FuelExpensestxt);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(27, 92);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(579, 287);
             this.panel2.TabIndex = 66;
             // 
-            // label6
+            // Amountlbl
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(254, 168);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 16);
-            this.label6.TabIndex = 73;
-            this.label6.Text = "Amount";
+            this.Amountlbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Amountlbl.AutoSize = true;
+            this.Amountlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Amountlbl.Location = new System.Drawing.Point(254, 168);
+            this.Amountlbl.Name = "Amountlbl";
+            this.Amountlbl.Size = new System.Drawing.Size(53, 16);
+            this.Amountlbl.TabIndex = 73;
+            this.Amountlbl.Text = "Amount";
             // 
             // label2
             // 
@@ -114,21 +114,21 @@ namespace FinalProject
             this.label8.TabIndex = 65;
             this.label8.Text = "Enter Fuel Expenses";
             // 
-            // ProductThresholdtxt
+            // Salarytxt
             // 
-            this.ProductThresholdtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductThresholdtxt.Location = new System.Drawing.Point(257, 133);
-            this.ProductThresholdtxt.Name = "ProductThresholdtxt";
-            this.ProductThresholdtxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductThresholdtxt.TabIndex = 69;
+            this.Salarytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Salarytxt.Location = new System.Drawing.Point(257, 133);
+            this.Salarytxt.Name = "Salarytxt";
+            this.Salarytxt.Size = new System.Drawing.Size(316, 20);
+            this.Salarytxt.TabIndex = 69;
             // 
-            // ProductPricetxt
+            // Vehicletxt
             // 
-            this.ProductPricetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductPricetxt.Location = new System.Drawing.Point(257, 97);
-            this.ProductPricetxt.Name = "ProductPricetxt";
-            this.ProductPricetxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductPricetxt.TabIndex = 70;
+            this.Vehicletxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Vehicletxt.Location = new System.Drawing.Point(257, 97);
+            this.Vehicletxt.Name = "Vehicletxt";
+            this.Vehicletxt.Size = new System.Drawing.Size(316, 20);
+            this.Vehicletxt.TabIndex = 70;
             // 
             // label4
             // 
@@ -141,13 +141,13 @@ namespace FinalProject
             this.label4.TabIndex = 67;
             this.label4.Text = "The Company\'s profit is: ";
             // 
-            // ProductTotalSelledtxt
+            // TotalSalestxt
             // 
-            this.ProductTotalSelledtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductTotalSelledtxt.Location = new System.Drawing.Point(257, 21);
-            this.ProductTotalSelledtxt.Name = "ProductTotalSelledtxt";
-            this.ProductTotalSelledtxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductTotalSelledtxt.TabIndex = 71;
+            this.TotalSalestxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.TotalSalestxt.Location = new System.Drawing.Point(257, 21);
+            this.TotalSalestxt.Name = "TotalSalestxt";
+            this.TotalSalestxt.Size = new System.Drawing.Size(316, 20);
+            this.TotalSalestxt.TabIndex = 71;
             // 
             // label3
             // 
@@ -160,13 +160,13 @@ namespace FinalProject
             this.label3.TabIndex = 66;
             this.label3.Text = "Enter Vehicle Expenses";
             // 
-            // ProductExpirytxt
+            // FuelExpensestxt
             // 
-            this.ProductExpirytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductExpirytxt.Location = new System.Drawing.Point(257, 61);
-            this.ProductExpirytxt.Name = "ProductExpirytxt";
-            this.ProductExpirytxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductExpirytxt.TabIndex = 72;
+            this.FuelExpensestxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FuelExpensestxt.Location = new System.Drawing.Point(257, 61);
+            this.FuelExpensestxt.Name = "FuelExpensestxt";
+            this.FuelExpensestxt.Size = new System.Drawing.Size(316, 20);
+            this.FuelExpensestxt.TabIndex = 72;
             // 
             // label5
             // 
@@ -190,6 +190,16 @@ namespace FinalProject
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(798, 51);
             this.panel1.TabIndex = 65;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -215,23 +225,13 @@ namespace FinalProject
             this.pictureBox2.TabIndex = 67;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
             // CompanyProfit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "CompanyProfit";
@@ -240,8 +240,8 @@ namespace FinalProject
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -249,17 +249,17 @@ namespace FinalProject
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Backbtn;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label Amountlbl;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox ProductThresholdtxt;
-        private System.Windows.Forms.TextBox ProductPricetxt;
+        private System.Windows.Forms.TextBox Salarytxt;
+        private System.Windows.Forms.TextBox Vehicletxt;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox ProductTotalSelledtxt;
+        private System.Windows.Forms.TextBox TotalSalestxt;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox ProductExpirytxt;
+        private System.Windows.Forms.TextBox FuelExpensestxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;

@@ -29,33 +29,33 @@ namespace FinalProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.DeliveredProductstxt = new System.Windows.Forms.Button();
+            this.Orderstxt = new System.Windows.Forms.Button();
+            this.EndDaytxt = new System.Windows.Forms.Button();
+            this.StartDaytxt = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // Backbtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(689, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 68;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Backbtn.FlatAppearance.BorderSize = 2;
+            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backbtn.Location = new System.Drawing.Point(689, 405);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.TabIndex = 68;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -68,6 +68,16 @@ namespace FinalProject
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(798, 51);
             this.panel1.TabIndex = 69;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -84,72 +94,62 @@ namespace FinalProject
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.DeliveredProductstxt);
+            this.panel2.Controls.Add(this.Orderstxt);
+            this.panel2.Controls.Add(this.EndDaytxt);
+            this.panel2.Controls.Add(this.StartDaytxt);
             this.panel2.Location = new System.Drawing.Point(287, 97);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(211, 287);
             this.panel2.TabIndex = 70;
             // 
-            // button2
+            // DeliveredProductstxt
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(60, 225);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 38);
-            this.button2.TabIndex = 72;
-            this.button2.Text = "Delivered Products";
-            this.button2.UseVisualStyleBackColor = true;
+            this.DeliveredProductstxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.DeliveredProductstxt.FlatAppearance.BorderSize = 2;
+            this.DeliveredProductstxt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DeliveredProductstxt.Location = new System.Drawing.Point(60, 225);
+            this.DeliveredProductstxt.Name = "DeliveredProductstxt";
+            this.DeliveredProductstxt.Size = new System.Drawing.Size(90, 38);
+            this.DeliveredProductstxt.TabIndex = 72;
+            this.DeliveredProductstxt.Text = "Delivered Products";
+            this.DeliveredProductstxt.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Orderstxt
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(60, 156);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 32);
-            this.button3.TabIndex = 73;
-            this.button3.Text = "Total Orders";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Orderstxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Orderstxt.FlatAppearance.BorderSize = 2;
+            this.Orderstxt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Orderstxt.Location = new System.Drawing.Point(60, 156);
+            this.Orderstxt.Name = "Orderstxt";
+            this.Orderstxt.Size = new System.Drawing.Size(90, 32);
+            this.Orderstxt.TabIndex = 73;
+            this.Orderstxt.Text = "Total Orders";
+            this.Orderstxt.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // EndDaytxt
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(60, 93);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 32);
-            this.button4.TabIndex = 74;
-            this.button4.Text = "End Day";
-            this.button4.UseVisualStyleBackColor = true;
+            this.EndDaytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.EndDaytxt.FlatAppearance.BorderSize = 2;
+            this.EndDaytxt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EndDaytxt.Location = new System.Drawing.Point(60, 93);
+            this.EndDaytxt.Name = "EndDaytxt";
+            this.EndDaytxt.Size = new System.Drawing.Size(90, 32);
+            this.EndDaytxt.TabIndex = 74;
+            this.EndDaytxt.Text = "End Day";
+            this.EndDaytxt.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // StartDaytxt
             // 
-            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(60, 30);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(90, 32);
-            this.button5.TabIndex = 75;
-            this.button5.Text = "Start Day";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.StartDaytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.StartDaytxt.FlatAppearance.BorderSize = 2;
+            this.StartDaytxt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StartDaytxt.Location = new System.Drawing.Point(60, 30);
+            this.StartDaytxt.Name = "StartDaytxt";
+            this.StartDaytxt.Size = new System.Drawing.Size(90, 32);
+            this.StartDaytxt.TabIndex = 75;
+            this.StartDaytxt.Text = "Start Day";
+            this.StartDaytxt.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
@@ -168,7 +168,7 @@ namespace FinalProject
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox2);
@@ -176,8 +176,8 @@ namespace FinalProject
             this.Text = "Deliveries";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -185,15 +185,15 @@ namespace FinalProject
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Backbtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button DeliveredProductstxt;
+        private System.Windows.Forms.Button Orderstxt;
+        private System.Windows.Forms.Button EndDaytxt;
+        private System.Windows.Forms.Button StartDaytxt;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

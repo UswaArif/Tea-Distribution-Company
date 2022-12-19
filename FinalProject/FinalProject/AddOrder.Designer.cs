@@ -34,22 +34,26 @@ namespace FinalProject
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.AddMorebtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label9 = new System.Windows.Forms.Label();
+            this.RiderNametxt = new System.Windows.Forms.ComboBox();
+            this.ProductNametxt = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.DeliveryDatetxt = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.SizeCombox = new System.Windows.Forms.ComboBox();
+            this.CustomerNametxt = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.ProductPricetxt = new System.Windows.Forms.TextBox();
+            this.Monthtxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.ProductExpirytxt = new System.Windows.Forms.TextBox();
+            this.OrderIdtxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.Addbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -69,7 +73,7 @@ namespace FinalProject
             // 
             this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(436, 157);
+            this.checkBox4.Location = new System.Drawing.Point(436, 193);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(40, 17);
             this.checkBox4.TabIndex = 55;
@@ -80,7 +84,7 @@ namespace FinalProject
             // 
             this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(303, 157);
+            this.checkBox3.Location = new System.Drawing.Point(303, 193);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(44, 17);
             this.checkBox3.TabIndex = 54;
@@ -91,7 +95,7 @@ namespace FinalProject
             // 
             this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(436, 122);
+            this.checkBox2.Location = new System.Drawing.Point(436, 168);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(40, 17);
             this.checkBox2.TabIndex = 53;
@@ -102,54 +106,101 @@ namespace FinalProject
             // 
             this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(303, 122);
+            this.checkBox1.Location = new System.Drawing.Point(303, 168);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(44, 17);
             this.checkBox1.TabIndex = 52;
             this.checkBox1.Text = "Yes";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // AddMorebtn
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(653, 67);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 32);
-            this.button2.TabIndex = 57;
-            this.button2.Text = "Add More";
-            this.button2.UseVisualStyleBackColor = true;
+            this.AddMorebtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddMorebtn.FlatAppearance.BorderSize = 2;
+            this.AddMorebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddMorebtn.Location = new System.Drawing.Point(653, 67);
+            this.AddMorebtn.Name = "AddMorebtn";
+            this.AddMorebtn.Size = new System.Drawing.Size(90, 32);
+            this.AddMorebtn.TabIndex = 57;
+            this.AddMorebtn.Text = "Add More";
+            this.AddMorebtn.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel2.Controls.Add(this.dateTimePicker1);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.RiderNametxt);
+            this.panel2.Controls.Add(this.ProductNametxt);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.DeliveryDatetxt);
             this.panel2.Controls.Add(this.checkBox4);
             this.panel2.Controls.Add(this.checkBox3);
             this.panel2.Controls.Add(this.checkBox2);
             this.panel2.Controls.Add(this.checkBox1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.SizeCombox);
+            this.panel2.Controls.Add(this.CustomerNametxt);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.ProductPricetxt);
+            this.panel2.Controls.Add(this.Monthtxt);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.ProductExpirytxt);
+            this.panel2.Controls.Add(this.OrderIdtxt);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(72, 127);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(671, 253);
             this.panel2.TabIndex = 56;
             // 
-            // dateTimePicker1
+            // label9
             // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.Location = new System.Drawing.Point(303, 192);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 56;
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(51, 42);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(82, 16);
+            this.label9.TabIndex = 59;
+            this.label9.Text = "Select Rider";
+            // 
+            // RiderNametxt
+            // 
+            this.RiderNametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.RiderNametxt.FormattingEnabled = true;
+            this.RiderNametxt.Items.AddRange(new object[] {
+            "Small",
+            "Medium",
+            "Large"});
+            this.RiderNametxt.Location = new System.Drawing.Point(303, 40);
+            this.RiderNametxt.Name = "RiderNametxt";
+            this.RiderNametxt.Size = new System.Drawing.Size(316, 21);
+            this.RiderNametxt.TabIndex = 60;
+            // 
+            // ProductNametxt
+            // 
+            this.ProductNametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ProductNametxt.Location = new System.Drawing.Point(303, 73);
+            this.ProductNametxt.Name = "ProductNametxt";
+            this.ProductNametxt.Size = new System.Drawing.Size(316, 20);
+            this.ProductNametxt.TabIndex = 58;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(51, 74);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(88, 16);
+            this.label7.TabIndex = 57;
+            this.label7.Text = "Enter Product";
+            // 
+            // DeliveryDatetxt
+            // 
+            this.DeliveryDatetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.DeliveryDatetxt.Location = new System.Drawing.Point(303, 218);
+            this.DeliveryDatetxt.Name = "DeliveryDatetxt";
+            this.DeliveryDatetxt.Size = new System.Drawing.Size(200, 20);
+            this.DeliveryDatetxt.TabIndex = 56;
             // 
             // label2
             // 
@@ -167,50 +218,50 @@ namespace FinalProject
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(51, 49);
+            this.label8.Location = new System.Drawing.Point(51, 105);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(92, 16);
             this.label8.TabIndex = 41;
             this.label8.Text = "Enter Order ID";
             // 
-            // SizeCombox
+            // CustomerNametxt
             // 
-            this.SizeCombox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SizeCombox.FormattingEnabled = true;
-            this.SizeCombox.Items.AddRange(new object[] {
+            this.CustomerNametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.CustomerNametxt.FormattingEnabled = true;
+            this.CustomerNametxt.Items.AddRange(new object[] {
             "Small",
             "Medium",
             "Large"});
-            this.SizeCombox.Location = new System.Drawing.Point(303, 8);
-            this.SizeCombox.Name = "SizeCombox";
-            this.SizeCombox.Size = new System.Drawing.Size(316, 21);
-            this.SizeCombox.TabIndex = 51;
+            this.CustomerNametxt.Location = new System.Drawing.Point(303, 8);
+            this.CustomerNametxt.Name = "CustomerNametxt";
+            this.CustomerNametxt.Size = new System.Drawing.Size(316, 21);
+            this.CustomerNametxt.TabIndex = 51;
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(51, 192);
+            this.label6.Location = new System.Drawing.Point(51, 218);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 16);
             this.label6.TabIndex = 45;
             this.label6.Text = "Enter Date";
             // 
-            // ProductPricetxt
+            // Monthtxt
             // 
-            this.ProductPricetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductPricetxt.Location = new System.Drawing.Point(303, 85);
-            this.ProductPricetxt.Name = "ProductPricetxt";
-            this.ProductPricetxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductPricetxt.TabIndex = 48;
+            this.Monthtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Monthtxt.Location = new System.Drawing.Point(303, 135);
+            this.Monthtxt.Name = "Monthtxt";
+            this.Monthtxt.Size = new System.Drawing.Size(316, 20);
+            this.Monthtxt.TabIndex = 48;
             // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(51, 156);
+            this.label4.Location = new System.Drawing.Point(51, 192);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(112, 16);
             this.label4.TabIndex = 43;
@@ -221,42 +272,42 @@ namespace FinalProject
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(51, 85);
+            this.label3.Location = new System.Drawing.Point(51, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 16);
             this.label3.TabIndex = 42;
             this.label3.Text = "Enter Order Month";
             // 
-            // ProductExpirytxt
+            // OrderIdtxt
             // 
-            this.ProductExpirytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductExpirytxt.Location = new System.Drawing.Point(303, 49);
-            this.ProductExpirytxt.Name = "ProductExpirytxt";
-            this.ProductExpirytxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductExpirytxt.TabIndex = 50;
+            this.OrderIdtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.OrderIdtxt.Location = new System.Drawing.Point(303, 105);
+            this.OrderIdtxt.Name = "OrderIdtxt";
+            this.OrderIdtxt.Size = new System.Drawing.Size(316, 20);
+            this.OrderIdtxt.TabIndex = 50;
             // 
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(51, 121);
+            this.label5.Location = new System.Drawing.Point(51, 167);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 16);
+            this.label5.Size = new System.Drawing.Size(73, 16);
             this.label5.TabIndex = 44;
-            this.label5.Text = "Oder Paid";
+            this.label5.Text = "Order Paid";
             // 
-            // button1
+            // Backbtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(653, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 54;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Backbtn.FlatAppearance.BorderSize = 2;
+            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backbtn.Location = new System.Drawing.Point(653, 405);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.TabIndex = 54;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -282,29 +333,29 @@ namespace FinalProject
             this.label1.TabIndex = 3;
             this.label1.Text = "Add Order";
             // 
-            // button11
+            // Addbtn
             // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.FlatAppearance.BorderSize = 2;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(557, 405);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(90, 32);
-            this.button11.TabIndex = 53;
-            this.button11.Text = "Add";
-            this.button11.UseVisualStyleBackColor = true;
+            this.Addbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Addbtn.FlatAppearance.BorderSize = 2;
+            this.Addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Addbtn.Location = new System.Drawing.Point(557, 405);
+            this.Addbtn.Name = "Addbtn";
+            this.Addbtn.Size = new System.Drawing.Size(90, 32);
+            this.Addbtn.TabIndex = 53;
+            this.Addbtn.Text = "Add";
+            this.Addbtn.UseVisualStyleBackColor = true;
             // 
             // AddOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.AddMorebtn);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button11);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.Addbtn);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddOrder";
             this.Text = "AddOrder";
             this.Load += new System.EventHandler(this.AddOrder_Load);
@@ -324,21 +375,25 @@ namespace FinalProject
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button AddMorebtn;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker DeliveryDatetxt;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox SizeCombox;
+        private System.Windows.Forms.ComboBox CustomerNametxt;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox ProductPricetxt;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox Monthtxt;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox ProductExpirytxt;
+        private System.Windows.Forms.TextBox OrderIdtxt;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Backbtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button Addbtn;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox ProductNametxt;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox RiderNametxt;
     }
 }

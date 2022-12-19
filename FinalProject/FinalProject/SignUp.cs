@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using SignIn.BL;
 using SignIn.DL;
 
+
 namespace FinalProject
 {
     public partial class SignUp : Form
@@ -17,21 +18,49 @@ namespace FinalProject
         public SignUp()
         {
             InitializeComponent();
+
         }
 
-        private void SignUpbtn_Click(object sender, EventArgs e)
+        private void clearDataFromForm()
         {
-            if (Passwordtxt.Text == ReEnterPasswordtxt.Text)
-            {
-                UserBL newUser = new UserBL(UserNametxt.Text, Passwordtxt.Text, Roletxt.Text);
-                UserDL.addIntoList(newUser);
-                //UserDL.storeUserIntoFile("pr");
-                MessageBox.Show("Account Created");
-            }
-            else
-            {
-                MessageBox.Show("File Doesnt Match");
-            }
+            Roletxt.Text = "";
+            UserNametxt.Text = "";
+            Passwordtxt.Text = "";
+            ReEnterPasswordtxt.Text = "";
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+            Rolelbl.Hide();
+            Namelbl.Hide();
+            Passwordlbl.Hide();
+            ReEnterlbl.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string Role = Roletxt.Text;
+            string userName = UserNametxt.Text;
+            string password = Passwordtxt.Text;
+            string ReEnter = ReEnterPasswordtxt.Text;
+
+            string path = "UserData.txt";
+            UserBL user = new UserBL(Role, userName, password, ReEnter);
+            UserDL.addIntoList(user);
+            UserDL.storeUserIntoFile(user, path);
+            MessageBox.Show("User added successfully");
+            clearDataFromForm();
+          
+        }
+
+        private void backbtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

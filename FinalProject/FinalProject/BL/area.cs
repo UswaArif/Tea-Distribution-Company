@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SignIn.BL
 {
-    class area
+    public class area
     {
         private float Latitude;
         private float Longitude;

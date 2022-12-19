@@ -16,7 +16,7 @@ namespace Project.BL
         public int TotalDelivery1 { get => TotalDelivery; set => TotalDelivery = value; }
         internal area RiderArea1 { get => RiderArea; set => RiderArea = value; }
 
-        public RiderBL(string name, string CNIC, string phoneNumber,string Id, int salary, string vehicleAssign,int totalDelivery,area RiderArea):base(name,CNIC,phoneNumber,Id,salary)
+        public RiderBL(string name, string CNIC, string phoneNumber,string Id, int salary, string vehicleAssign,int totalDelivery,bool isSalaryPaid, area RiderArea):base(name,CNIC,phoneNumber,Id,salary,isSalaryPaid)
         {
             this.EmpName1 = name;
             this.EmpCnic1 = CNIC;

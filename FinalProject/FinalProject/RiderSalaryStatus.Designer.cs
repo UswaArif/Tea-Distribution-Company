@@ -30,25 +30,25 @@ namespace FinalProject
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.ProductTotalSelledtxt = new System.Windows.Forms.TextBox();
-            this.ProductExpirytxt = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Nametxt = new System.Windows.Forms.TextBox();
+            this.IDtxt = new System.Windows.Forms.TextBox();
+            this.Salarylbl = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,6 +63,16 @@ namespace FinalProject
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(798, 51);
             this.panel1.TabIndex = 73;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -120,32 +130,32 @@ namespace FinalProject
             this.label8.TabIndex = 66;
             this.label8.Text = "Enter ID Number";
             // 
-            // ProductTotalSelledtxt
+            // Nametxt
             // 
-            this.ProductTotalSelledtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductTotalSelledtxt.Location = new System.Drawing.Point(202, 33);
-            this.ProductTotalSelledtxt.Name = "ProductTotalSelledtxt";
-            this.ProductTotalSelledtxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductTotalSelledtxt.TabIndex = 67;
+            this.Nametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Nametxt.Location = new System.Drawing.Point(202, 33);
+            this.Nametxt.Name = "Nametxt";
+            this.Nametxt.Size = new System.Drawing.Size(316, 20);
+            this.Nametxt.TabIndex = 67;
             // 
-            // ProductExpirytxt
+            // IDtxt
             // 
-            this.ProductExpirytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductExpirytxt.Location = new System.Drawing.Point(202, 80);
-            this.ProductExpirytxt.Name = "ProductExpirytxt";
-            this.ProductExpirytxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductExpirytxt.TabIndex = 68;
+            this.IDtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.IDtxt.Location = new System.Drawing.Point(202, 80);
+            this.IDtxt.Name = "IDtxt";
+            this.IDtxt.Size = new System.Drawing.Size(316, 20);
+            this.IDtxt.TabIndex = 68;
             // 
-            // label6
+            // Salarylbl
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(199, 221);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 16);
-            this.label6.TabIndex = 76;
-            this.label6.Text = "Salary ";
+            this.Salarylbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Salarylbl.AutoSize = true;
+            this.Salarylbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Salarylbl.Location = new System.Drawing.Point(199, 221);
+            this.Salarylbl.Name = "Salarylbl";
+            this.Salarylbl.Size = new System.Drawing.Size(50, 16);
+            this.Salarylbl.TabIndex = 76;
+            this.Salarylbl.Text = "Salary ";
             // 
             // label5
             // 
@@ -191,22 +201,22 @@ namespace FinalProject
             this.checkBox3.Text = "Yes";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Backbtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(698, 397);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 76;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Backbtn.FlatAppearance.BorderSize = 2;
+            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backbtn.Location = new System.Drawing.Point(698, 397);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.TabIndex = 76;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.Salarylbl);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.checkBox4);
@@ -215,22 +225,12 @@ namespace FinalProject
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.ProductTotalSelledtxt);
-            this.panel2.Controls.Add(this.ProductExpirytxt);
+            this.panel2.Controls.Add(this.Nametxt);
+            this.panel2.Controls.Add(this.IDtxt);
             this.panel2.Location = new System.Drawing.Point(25, 72);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(545, 357);
             this.panel2.TabIndex = 74;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -249,16 +249,16 @@ namespace FinalProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Name = "RiderSalaryStatus";
             this.Text = "RiderSalaryStatus";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -273,14 +273,14 @@ namespace FinalProject
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox ProductTotalSelledtxt;
-        private System.Windows.Forms.TextBox ProductExpirytxt;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox Nametxt;
+        private System.Windows.Forms.TextBox IDtxt;
+        private System.Windows.Forms.Label Salarylbl;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Backbtn;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
     }

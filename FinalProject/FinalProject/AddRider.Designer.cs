@@ -29,50 +29,50 @@ namespace FinalProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Longitudetxt = new System.Windows.Forms.TextBox();
+            this.Latitudetxt = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Vehicletxt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.ProductNametxt = new System.Windows.Forms.TextBox();
+            this.Salarytxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ProductThresholdtxt = new System.Windows.Forms.TextBox();
-            this.ProductPricetxt = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.ProductTotalSelledtxt = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.ProductExpirytxt = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Phonetxt = new System.Windows.Forms.TextBox();
+            this.CNICtxt = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Nametxt = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.IDtxt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Backbtn = new System.Windows.Forms.Button();
+            this.Addbtn = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox3
+            // Longitudetxt
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.Location = new System.Drawing.Point(257, 236);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(316, 20);
-            this.textBox3.TabIndex = 78;
+            this.Longitudetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Longitudetxt.Location = new System.Drawing.Point(257, 236);
+            this.Longitudetxt.Name = "Longitudetxt";
+            this.Longitudetxt.Size = new System.Drawing.Size(316, 20);
+            this.Longitudetxt.TabIndex = 78;
             // 
-            // textBox2
+            // Latitudetxt
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(257, 267);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(316, 20);
-            this.textBox2.TabIndex = 77;
+            this.Latitudetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Latitudetxt.Location = new System.Drawing.Point(257, 267);
+            this.Latitudetxt.Name = "Latitudetxt";
+            this.Latitudetxt.Size = new System.Drawing.Size(316, 20);
+            this.Latitudetxt.TabIndex = 77;
             // 
             // label9
             // 
@@ -96,13 +96,13 @@ namespace FinalProject
             this.label7.TabIndex = 75;
             this.label7.Text = "Enter Latitude";
             // 
-            // textBox1
+            // Vehicletxt
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(257, 201);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(316, 20);
-            this.textBox1.TabIndex = 74;
+            this.Vehicletxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Vehicletxt.Location = new System.Drawing.Point(257, 201);
+            this.Vehicletxt.Name = "Vehicletxt";
+            this.Vehicletxt.Size = new System.Drawing.Size(316, 20);
+            this.Vehicletxt.TabIndex = 74;
             // 
             // label6
             // 
@@ -137,13 +137,13 @@ namespace FinalProject
             this.label8.TabIndex = 65;
             this.label8.Text = "Enter ID";
             // 
-            // ProductNametxt
+            // Salarytxt
             // 
-            this.ProductNametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductNametxt.Location = new System.Drawing.Point(257, 168);
-            this.ProductNametxt.Name = "ProductNametxt";
-            this.ProductNametxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductNametxt.TabIndex = 63;
+            this.Salarytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Salarytxt.Location = new System.Drawing.Point(257, 168);
+            this.Salarytxt.Name = "Salarytxt";
+            this.Salarytxt.Size = new System.Drawing.Size(316, 20);
+            this.Salarytxt.TabIndex = 63;
             // 
             // label1
             // 
@@ -169,21 +169,31 @@ namespace FinalProject
             this.panel1.Size = new System.Drawing.Size(798, 51);
             this.panel1.TabIndex = 60;
             // 
-            // ProductThresholdtxt
+            // pictureBox1
             // 
-            this.ProductThresholdtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductThresholdtxt.Location = new System.Drawing.Point(257, 133);
-            this.ProductThresholdtxt.Name = "ProductThresholdtxt";
-            this.ProductThresholdtxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductThresholdtxt.TabIndex = 69;
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
-            // ProductPricetxt
+            // Phonetxt
             // 
-            this.ProductPricetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductPricetxt.Location = new System.Drawing.Point(257, 97);
-            this.ProductPricetxt.Name = "ProductPricetxt";
-            this.ProductPricetxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductPricetxt.TabIndex = 70;
+            this.Phonetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Phonetxt.Location = new System.Drawing.Point(257, 133);
+            this.Phonetxt.Name = "Phonetxt";
+            this.Phonetxt.Size = new System.Drawing.Size(316, 20);
+            this.Phonetxt.TabIndex = 69;
+            // 
+            // CNICtxt
+            // 
+            this.CNICtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.CNICtxt.Location = new System.Drawing.Point(257, 97);
+            this.CNICtxt.Name = "CNICtxt";
+            this.CNICtxt.Size = new System.Drawing.Size(316, 20);
+            this.CNICtxt.TabIndex = 70;
             // 
             // label4
             // 
@@ -196,13 +206,13 @@ namespace FinalProject
             this.label4.TabIndex = 67;
             this.label4.Text = "Enter Salary";
             // 
-            // ProductTotalSelledtxt
+            // Nametxt
             // 
-            this.ProductTotalSelledtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductTotalSelledtxt.Location = new System.Drawing.Point(257, 21);
-            this.ProductTotalSelledtxt.Name = "ProductTotalSelledtxt";
-            this.ProductTotalSelledtxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductTotalSelledtxt.TabIndex = 71;
+            this.Nametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Nametxt.Location = new System.Drawing.Point(257, 21);
+            this.Nametxt.Name = "Nametxt";
+            this.Nametxt.Size = new System.Drawing.Size(316, 20);
+            this.Nametxt.TabIndex = 71;
             // 
             // label3
             // 
@@ -215,13 +225,13 @@ namespace FinalProject
             this.label3.TabIndex = 66;
             this.label3.Text = "Enter CNIC";
             // 
-            // ProductExpirytxt
+            // IDtxt
             // 
-            this.ProductExpirytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductExpirytxt.Location = new System.Drawing.Point(257, 61);
-            this.ProductExpirytxt.Name = "ProductExpirytxt";
-            this.ProductExpirytxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductExpirytxt.TabIndex = 72;
+            this.IDtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.IDtxt.Location = new System.Drawing.Point(257, 61);
+            this.IDtxt.Name = "IDtxt";
+            this.IDtxt.Size = new System.Drawing.Size(316, 20);
+            this.IDtxt.TabIndex = 72;
             // 
             // label5
             // 
@@ -234,63 +244,53 @@ namespace FinalProject
             this.label5.TabIndex = 68;
             this.label5.Text = "Enter Phone Number";
             // 
-            // button1
+            // Backbtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(699, 406);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 59;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Backbtn.FlatAppearance.BorderSize = 2;
+            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backbtn.Location = new System.Drawing.Point(699, 406);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.TabIndex = 59;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // Addbtn
             // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.FlatAppearance.BorderSize = 2;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(603, 406);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(90, 32);
-            this.button11.TabIndex = 58;
-            this.button11.Text = "Add";
-            this.button11.UseVisualStyleBackColor = true;
+            this.Addbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Addbtn.FlatAppearance.BorderSize = 2;
+            this.Addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Addbtn.Location = new System.Drawing.Point(603, 406);
+            this.Addbtn.Name = "Addbtn";
+            this.Addbtn.Size = new System.Drawing.Size(90, 32);
+            this.Addbtn.TabIndex = 58;
+            this.Addbtn.Text = "Add";
+            this.Addbtn.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.Longitudetxt);
+            this.panel2.Controls.Add(this.Latitudetxt);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.Vehicletxt);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.ProductNametxt);
-            this.panel2.Controls.Add(this.ProductThresholdtxt);
-            this.panel2.Controls.Add(this.ProductPricetxt);
+            this.panel2.Controls.Add(this.Salarytxt);
+            this.panel2.Controls.Add(this.Phonetxt);
+            this.panel2.Controls.Add(this.CNICtxt);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.ProductTotalSelledtxt);
+            this.panel2.Controls.Add(this.Nametxt);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.ProductExpirytxt);
+            this.panel2.Controls.Add(this.IDtxt);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(27, 92);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(579, 287);
             this.panel2.TabIndex = 61;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -311,16 +311,16 @@ namespace FinalProject
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.Backbtn);
+            this.Controls.Add(this.Addbtn);
             this.Controls.Add(this.panel2);
             this.Name = "AddRider";
             this.Text = "AddRider";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -328,28 +328,28 @@ namespace FinalProject
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Longitudetxt;
+        private System.Windows.Forms.TextBox Latitudetxt;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Vehicletxt;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox ProductNametxt;
+        private System.Windows.Forms.TextBox Salarytxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox ProductThresholdtxt;
-        private System.Windows.Forms.TextBox ProductPricetxt;
+        private System.Windows.Forms.TextBox Phonetxt;
+        private System.Windows.Forms.TextBox CNICtxt;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox ProductTotalSelledtxt;
+        private System.Windows.Forms.TextBox Nametxt;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox ProductExpirytxt;
+        private System.Windows.Forms.TextBox IDtxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button Backbtn;
+        private System.Windows.Forms.Button Addbtn;
         private System.Windows.Forms.Panel panel2;
     }
 }

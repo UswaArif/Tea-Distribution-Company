@@ -179,6 +179,7 @@ namespace FinalProject
             this.button11.TabIndex = 38;
             this.button11.Text = "Log Out";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -190,6 +191,7 @@ namespace FinalProject
             this.button10.TabIndex = 53;
             this.button10.Text = "Profile";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -201,6 +203,7 @@ namespace FinalProject
             this.button9.TabIndex = 52;
             this.button9.Text = "Add";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -212,6 +215,7 @@ namespace FinalProject
             this.button8.TabIndex = 51;
             this.button8.Text = "View";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -223,6 +227,7 @@ namespace FinalProject
             this.button7.TabIndex = 50;
             this.button7.Text = "Search";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -234,6 +239,7 @@ namespace FinalProject
             this.button6.TabIndex = 49;
             this.button6.Text = "Order";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -256,6 +262,7 @@ namespace FinalProject
             this.button4.TabIndex = 47;
             this.button4.Text = "Search";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label2
             // 

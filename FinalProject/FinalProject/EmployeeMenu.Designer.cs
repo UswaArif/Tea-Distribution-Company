@@ -81,11 +81,11 @@ namespace FinalProject
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(305, 8);
+            this.label1.Location = new System.Drawing.Point(300, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 31);
+            this.label1.Size = new System.Drawing.Size(221, 31);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Manager Menu";
+            this.label1.Text = "Employee Menu";
             // 
             // button10
             // 
@@ -97,6 +97,7 @@ namespace FinalProject
             this.button10.TabIndex = 53;
             this.button10.Text = "Add";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button7
             // 
@@ -108,6 +109,7 @@ namespace FinalProject
             this.button7.TabIndex = 50;
             this.button7.Text = "Salary";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button5
             // 
@@ -119,6 +121,7 @@ namespace FinalProject
             this.button5.TabIndex = 48;
             this.button5.Text = "View";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -130,6 +133,7 @@ namespace FinalProject
             this.button4.TabIndex = 47;
             this.button4.Text = "Search";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button1
             // 
@@ -141,6 +145,7 @@ namespace FinalProject
             this.button1.TabIndex = 45;
             this.button1.Text = "View";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -152,6 +157,7 @@ namespace FinalProject
             this.button2.TabIndex = 44;
             this.button2.Text = "Profile";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label13
             // 
@@ -233,6 +239,7 @@ namespace FinalProject
             this.button11.TabIndex = 38;
             this.button11.Text = "Log Out";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label5
             // 

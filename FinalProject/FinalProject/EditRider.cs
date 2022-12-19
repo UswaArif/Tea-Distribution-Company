@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Project.BL;
 using Project.DL;
+using SignIn.BL;
 
 namespace FinalProject
 {
@@ -23,9 +24,19 @@ namespace FinalProject
 
         private void Addbtn_Click(object sender, EventArgs e)
         {
-            area newAREA = new area(float.Parse(Latitudetxt.Text), float.Parse(Logitutidetxt.Text));
-            RiderBL newRider = new RiderBL(RiderNametxt.Text, RiderCinictxt.Text, RiderPhonetxt.Text, RiderIDtxt.Text, int.Parse(RiderSalarytxt.Text), RiderVechiletxt.Text, 0, newAREA);
-            RiderDL.editRider(r, newRider);
+            area newAREA = new area(float.Parse(Latitudetxt.Text), float.Parse(Longitudetxt.Text));
+           // RiderBL newRider = new RiderBL(RiderNametxt.Text, RiderCNICtxt.Text, RiderPhonetxt.Text, RiderIDtxt.Text, int.Parse(RiderSalarytxt.Text), RiderVehicletxt.Text, 0, newAREA);
+           // RiderDL.editRider(r, newRider);
+        }
+
+        private void EditRider_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProductTotalSelledtxt_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

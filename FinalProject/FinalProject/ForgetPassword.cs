@@ -22,9 +22,9 @@ namespace FinalProject
 
         private void resetbtn_Click(object sender, EventArgs e)
         {
-            if (ForgotPasswordtxt.Text == ReEntertxt.Text)
+            if (Passwordtxt.Text == ReEnterPasswordtxt.Text)
             {
-                newUser.UserPassword1 = ForgotPasswordtxt.Text;
+                newUser.UserPassword1 = Passwordtxt.Text;
             }
             else
             {
@@ -33,6 +33,16 @@ namespace FinalProject
         }
 
         private void backbtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ForgetPassword_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backbtn_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }

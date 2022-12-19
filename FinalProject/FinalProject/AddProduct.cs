@@ -21,12 +21,17 @@ namespace FinalProject
 
         private void Addbtn_Click(object sender, EventArgs e)
         {
-            ProductBL newProduct = new ProductBL(ProductNametxt.Text, int.Parse(ProductStocktxt.Text), int.Parse(ProductThresholdtxt.Text), int.Parse(ProductPricetxt.Text), int.Parse(ProductTotalSelledtxt.Text), ProductExpirytxt.Text, SizeCombox.Text);
+            ProductBL newProduct = new ProductBL(ProductPricetxt.Text, int.Parse(ProductStocktxt.Text), int.Parse(ProductThresholdtxt.Text), int.Parse(TotalProductSelledtxt.Text), int.Parse(ProductNametxt.Text), ProductStocktxt.Text, SizeCombox.Text);
             ProductDL.addIntoProductList(newProduct);
             //ProductDL.storeProductIntoFile;
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void AddProduct_Load(object sender, EventArgs e)
         {
 
         }

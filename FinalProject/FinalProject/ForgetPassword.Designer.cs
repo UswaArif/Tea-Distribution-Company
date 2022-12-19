@@ -36,15 +36,15 @@ namespace FinalProject
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Passwordtxt = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.ReEnterPasswordtxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Resetbtn = new System.Windows.Forms.Button();
+            this.backbtn = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -115,14 +115,14 @@ namespace FinalProject
             // 
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.Passwordtxt);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.pictureBox5);
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.ReEnterPasswordtxt);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.Resetbtn);
             this.panel3.Location = new System.Drawing.Point(273, 90);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(487, 295);
@@ -139,14 +139,14 @@ namespace FinalProject
             this.label9.TabIndex = 39;
             this.label9.Text = "Invalid Password Try Again!";
             // 
-            // textBox4
+            // Passwordtxt
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Passwordtxt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(202, 39);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(277, 20);
-            this.textBox4.TabIndex = 38;
+            this.Passwordtxt.Location = new System.Drawing.Point(202, 39);
+            this.Passwordtxt.Name = "Passwordtxt";
+            this.Passwordtxt.Size = new System.Drawing.Size(277, 20);
+            this.Passwordtxt.TabIndex = 38;
             // 
             // label10
             // 
@@ -180,13 +180,13 @@ namespace FinalProject
             this.label7.TabIndex = 35;
             this.label7.Text = "Password does not match";
             // 
-            // textBox1
+            // ReEnterPasswordtxt
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.textBox1.Location = new System.Drawing.Point(201, 134);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(278, 20);
-            this.textBox1.TabIndex = 34;
+            this.ReEnterPasswordtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.ReEnterPasswordtxt.Location = new System.Drawing.Point(201, 134);
+            this.ReEnterPasswordtxt.Name = "ReEnterPasswordtxt";
+            this.ReEnterPasswordtxt.Size = new System.Drawing.Size(278, 20);
+            this.ReEnterPasswordtxt.TabIndex = 34;
             // 
             // label5
             // 
@@ -209,28 +209,29 @@ namespace FinalProject
             this.pictureBox3.TabIndex = 32;
             this.pictureBox3.TabStop = false;
             // 
-            // button1
+            // Resetbtn
             // 
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(204, 235);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 33);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Resetbtn.FlatAppearance.BorderSize = 2;
+            this.Resetbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Resetbtn.Location = new System.Drawing.Point(204, 235);
+            this.Resetbtn.Name = "Resetbtn";
+            this.Resetbtn.Size = new System.Drawing.Size(90, 33);
+            this.Resetbtn.TabIndex = 31;
+            this.Resetbtn.Text = "Reset";
+            this.Resetbtn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // backbtn
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(670, 406);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 32);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.backbtn.FlatAppearance.BorderSize = 2;
+            this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backbtn.Location = new System.Drawing.Point(670, 406);
+            this.backbtn.Name = "backbtn";
+            this.backbtn.Size = new System.Drawing.Size(90, 32);
+            this.backbtn.TabIndex = 25;
+            this.backbtn.Text = "Back";
+            this.backbtn.UseVisualStyleBackColor = true;
+            this.backbtn.Click += new System.EventHandler(this.backbtn_Click_1);
             // 
             // ForgetPassword
             // 
@@ -240,9 +241,10 @@ namespace FinalProject
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.backbtn);
             this.Name = "ForgetPassword";
             this.Text = "ForgetPassword";
+            this.Load += new System.EventHandler(this.ForgetPassword_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -265,14 +267,14 @@ namespace FinalProject
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox Passwordtxt;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox ReEnterPasswordtxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Resetbtn;
+        private System.Windows.Forms.Button backbtn;
     }
 }

@@ -17,12 +17,12 @@ namespace SignIn.DL
         {
             MyUserList1.AddLast(u);
         }
-        public static void storeUserIntoFile(string UserPath)
+        public static void storeUserIntoFile(UserBL user, string UserPath)
         {
-            StreamWriter file = new StreamWriter(UserPath);
+            StreamWriter file = new StreamWriter(UserPath, true);
             foreach (UserBL storeUser in MyUserList1)
             {
-                file.WriteLine(storeUser.UserName1 + "," + storeUser.UserPassword1 + "," + storeUser.UserRole1);
+                file.WriteLine(storeUser.UserRole1 + "," + storeUser.UserName1 + "," + storeUser.UserPassword1 + "," + storeUser.ReEnter1);
             }
             file.Flush();
             file.Close();
@@ -36,10 +36,11 @@ namespace SignIn.DL
                 while ((record = file.ReadLine()) != null)
                 {
                     string[] splittedRecord = record.Split(',');
-                    string userName = splittedRecord[0];
-                    string userPasword = splittedRecord[1];
-                    string userRole = splittedRecord[2];
-                    UserBL newUser = new UserBL(userName, userPasword, userRole);
+                    string userRole = splittedRecord[0];
+                    string userName = splittedRecord[1];
+                    string userPassword = splittedRecord[2];
+                    string ReEnter = splittedRecord[3];
+                    UserBL newUser = new UserBL(userRole, userName, userPassword, ReEnter);
                     addIntoList(newUser);
 
                 }

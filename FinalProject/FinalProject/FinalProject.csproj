@@ -444,6 +444,7 @@
     <Content Include="obj\Debug\FinalProject.exe" />
     <Content Include="obj\Debug\FinalProject.pdb" />
     <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <None Include="Resources\images1.jpg" />
     <None Include="Resources\download.jpg" />
     <None Include="Resources\download.png" />
     <None Include="Resources\3022495.png" />

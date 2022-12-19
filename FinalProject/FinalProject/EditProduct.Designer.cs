@@ -30,10 +30,11 @@ namespace FinalProject
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.ProductNametxt = new System.Windows.Forms.TextBox();
-            this.SizeCombox = new System.Windows.Forms.ComboBox();
+            this.SizeComboBox = new System.Windows.Forms.ComboBox();
             this.ProductThresholdtxt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.ProductPricetxt = new System.Windows.Forms.TextBox();
@@ -41,14 +42,13 @@ namespace FinalProject
             this.ProductTotalSelledtxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.ProductExpirytxt = new System.Windows.Forms.TextBox();
+            this.ProductStocktxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Editbtn = new System.Windows.Forms.Button();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,7 +61,7 @@ namespace FinalProject
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.ProductNametxt);
-            this.panel2.Controls.Add(this.SizeCombox);
+            this.panel2.Controls.Add(this.SizeComboBox);
             this.panel2.Controls.Add(this.ProductThresholdtxt);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.ProductPricetxt);
@@ -69,12 +69,21 @@ namespace FinalProject
             this.panel2.Controls.Add(this.ProductTotalSelledtxt);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.ProductExpirytxt);
+            this.panel2.Controls.Add(this.ProductStocktxt);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(72, 71);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(671, 309);
             this.panel2.TabIndex = 55;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dateTimePicker1.Location = new System.Drawing.Point(303, 220);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(316, 20);
+            this.dateTimePicker1.TabIndex = 52;
             // 
             // label2
             // 
@@ -101,28 +110,28 @@ namespace FinalProject
             // ProductNametxt
             // 
             this.ProductNametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductNametxt.Location = new System.Drawing.Point(303, 184);
+            this.ProductNametxt.Location = new System.Drawing.Point(303, 36);
             this.ProductNametxt.Name = "ProductNametxt";
             this.ProductNametxt.Size = new System.Drawing.Size(316, 20);
             this.ProductNametxt.TabIndex = 38;
             // 
-            // SizeCombox
+            // SizeComboBox
             // 
-            this.SizeCombox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SizeCombox.FormattingEnabled = true;
-            this.SizeCombox.Items.AddRange(new object[] {
+            this.SizeComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SizeComboBox.FormattingEnabled = true;
+            this.SizeComboBox.Items.AddRange(new object[] {
             "Small",
             "Medium",
             "Large"});
-            this.SizeCombox.Location = new System.Drawing.Point(303, 250);
-            this.SizeCombox.Name = "SizeCombox";
-            this.SizeCombox.Size = new System.Drawing.Size(316, 21);
-            this.SizeCombox.TabIndex = 51;
+            this.SizeComboBox.Location = new System.Drawing.Point(303, 250);
+            this.SizeComboBox.Name = "SizeComboBox";
+            this.SizeComboBox.Size = new System.Drawing.Size(316, 21);
+            this.SizeComboBox.TabIndex = 51;
             // 
             // ProductThresholdtxt
             // 
             this.ProductThresholdtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductThresholdtxt.Location = new System.Drawing.Point(303, 149);
+            this.ProductThresholdtxt.Location = new System.Drawing.Point(303, 113);
             this.ProductThresholdtxt.Name = "ProductThresholdtxt";
             this.ProductThresholdtxt.Size = new System.Drawing.Size(316, 20);
             this.ProductThresholdtxt.TabIndex = 47;
@@ -141,7 +150,7 @@ namespace FinalProject
             // ProductPricetxt
             // 
             this.ProductPricetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductPricetxt.Location = new System.Drawing.Point(303, 113);
+            this.ProductPricetxt.Location = new System.Drawing.Point(303, 149);
             this.ProductPricetxt.Name = "ProductPricetxt";
             this.ProductPricetxt.Size = new System.Drawing.Size(316, 20);
             this.ProductPricetxt.TabIndex = 48;
@@ -160,7 +169,7 @@ namespace FinalProject
             // ProductTotalSelledtxt
             // 
             this.ProductTotalSelledtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductTotalSelledtxt.Location = new System.Drawing.Point(303, 37);
+            this.ProductTotalSelledtxt.Location = new System.Drawing.Point(305, 184);
             this.ProductTotalSelledtxt.Name = "ProductTotalSelledtxt";
             this.ProductTotalSelledtxt.Size = new System.Drawing.Size(316, 20);
             this.ProductTotalSelledtxt.TabIndex = 49;
@@ -187,13 +196,13 @@ namespace FinalProject
             this.label7.TabIndex = 46;
             this.label7.Text = "Select Size";
             // 
-            // ProductExpirytxt
+            // ProductStocktxt
             // 
-            this.ProductExpirytxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProductExpirytxt.Location = new System.Drawing.Point(303, 77);
-            this.ProductExpirytxt.Name = "ProductExpirytxt";
-            this.ProductExpirytxt.Size = new System.Drawing.Size(316, 20);
-            this.ProductExpirytxt.TabIndex = 50;
+            this.ProductStocktxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ProductStocktxt.Location = new System.Drawing.Point(303, 77);
+            this.ProductStocktxt.Name = "ProductStocktxt";
+            this.ProductStocktxt.Size = new System.Drawing.Size(316, 20);
+            this.ProductStocktxt.TabIndex = 50;
             // 
             // label5
             // 
@@ -218,6 +227,16 @@ namespace FinalProject
             this.panel1.Size = new System.Drawing.Size(798, 51);
             this.panel1.TabIndex = 54;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
@@ -230,47 +249,29 @@ namespace FinalProject
             this.label1.TabIndex = 3;
             this.label1.Text = "Edit Product";
             // 
-            // button11
+            // Editbtn
             // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.FlatAppearance.BorderSize = 2;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(603, 406);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(90, 32);
-            this.button11.TabIndex = 52;
-            this.button11.Text = "Edit";
-            this.button11.UseVisualStyleBackColor = true;
+            this.Editbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Editbtn.FlatAppearance.BorderSize = 2;
+            this.Editbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Editbtn.Location = new System.Drawing.Point(603, 406);
+            this.Editbtn.Name = "Editbtn";
+            this.Editbtn.Size = new System.Drawing.Size(90, 32);
+            this.Editbtn.TabIndex = 52;
+            this.Editbtn.Text = "Edit";
+            this.Editbtn.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Backbtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(699, 406);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 53;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.Location = new System.Drawing.Point(303, 220);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(316, 20);
-            this.dateTimePicker1.TabIndex = 52;
+            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Backbtn.FlatAppearance.BorderSize = 2;
+            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backbtn.Location = new System.Drawing.Point(699, 406);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.TabIndex = 53;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
             // 
             // EditProduct
             // 
@@ -279,11 +280,12 @@ namespace FinalProject
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.Editbtn);
+            this.Controls.Add(this.Backbtn);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditProduct";
             this.Text = "EditProduct";
+            this.Load += new System.EventHandler(this.EditProduct_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -299,7 +301,7 @@ namespace FinalProject
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox ProductNametxt;
-        private System.Windows.Forms.ComboBox SizeCombox;
+        private System.Windows.Forms.ComboBox SizeComboBox;
         private System.Windows.Forms.TextBox ProductThresholdtxt;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox ProductPricetxt;
@@ -307,13 +309,13 @@ namespace FinalProject
         private System.Windows.Forms.TextBox ProductTotalSelledtxt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox ProductExpirytxt;
+        private System.Windows.Forms.TextBox ProductStocktxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Editbtn;
+        private System.Windows.Forms.Button Backbtn;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

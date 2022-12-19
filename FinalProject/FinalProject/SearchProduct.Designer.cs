@@ -32,11 +32,11 @@ namespace FinalProject
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Searchbtn = new System.Windows.Forms.Button();
+            this.Sizetxt = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,24 +85,24 @@ namespace FinalProject
             this.label1.TabIndex = 3;
             this.label1.Text = "Search Product";
             // 
-            // button1
+            // Backbtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(681, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 69;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Backbtn.FlatAppearance.BorderSize = 2;
+            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backbtn.Location = new System.Drawing.Point(637, 395);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.TabIndex = 69;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.Searchbtn);
+            this.panel2.Controls.Add(this.Sizetxt);
             this.panel2.Location = new System.Drawing.Point(103, 73);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(624, 65);
@@ -118,24 +118,24 @@ namespace FinalProject
             this.label2.TabIndex = 69;
             this.label2.Text = "Enter Size";
             // 
-            // button2
+            // Searchbtn
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(503, 16);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 32);
-            this.button2.TabIndex = 68;
-            this.button2.Text = "Search";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Searchbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Searchbtn.FlatAppearance.BorderSize = 2;
+            this.Searchbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Searchbtn.Location = new System.Drawing.Point(503, 16);
+            this.Searchbtn.Name = "Searchbtn";
+            this.Searchbtn.Size = new System.Drawing.Size(90, 32);
+            this.Searchbtn.TabIndex = 68;
+            this.Searchbtn.Text = "Search";
+            this.Searchbtn.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Sizetxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(163, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(306, 20);
-            this.textBox1.TabIndex = 67;
+            this.Sizetxt.Location = new System.Drawing.Point(163, 23);
+            this.Sizetxt.Name = "Sizetxt";
+            this.Sizetxt.Size = new System.Drawing.Size(306, 20);
+            this.Sizetxt.TabIndex = 67;
             // 
             // dataGridView1
             // 
@@ -196,7 +196,7 @@ namespace FinalProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dataGridView1);
             this.Name = "SearchProduct";
@@ -216,11 +216,11 @@ namespace FinalProject
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Backbtn;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Searchbtn;
+        private System.Windows.Forms.TextBox Sizetxt;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

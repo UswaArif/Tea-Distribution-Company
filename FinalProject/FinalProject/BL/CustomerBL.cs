@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SignIn.BL
 {
-    class CustomerBL
+    public class CustomerBL
     {
         private string CusName;
         private string CusEmail;
