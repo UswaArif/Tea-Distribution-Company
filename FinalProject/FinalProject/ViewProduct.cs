@@ -1,4 +1,5 @@
-﻿using SignIn.DL;
+﻿using SignIn.BL;
+using SignIn.DL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,15 +19,11 @@ namespace FinalProject
             InitializeComponent();
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void ViewProduct_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = ProductDL.ProductList;
+            ProductDL.readProductFromFile("C:\\3rd semester final project\\cs261f22finalpid33\\FinalProject\\FinalProject\\bin\\Debug\\ProductData.txt");
+            List<ProductBL> ListToBeShown = new List<ProductBL>(ProductDL.ProductList);
+            dataGridView1.DataSource = ListToBeShown;
         }
     }
 }

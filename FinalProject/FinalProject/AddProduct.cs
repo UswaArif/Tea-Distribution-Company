@@ -21,19 +21,23 @@ namespace FinalProject
 
         private void Addbtn_Click(object sender, EventArgs e)
         {
-            ProductBL newProduct = new ProductBL(ProductPricetxt.Text, int.Parse(ProductStocktxt.Text), int.Parse(ProductThresholdtxt.Text), int.Parse(TotalProductSelledtxt.Text), int.Parse(ProductNametxt.Text), ProductStocktxt.Text, SizeCombox.Text);
+            string date = dateTimePicker.Text;
+            //date = date.Replace(@"\", "-");
+            ProductBL newProduct = new ProductBL(ProductNametxt.Text,int.Parse(ProductStocktxt.Text), int.Parse(ProductThresholdtxt.Text),int.Parse(ProductPricetxt.Text) ,int.Parse(TotalProductSelledtxt.Text),date, SizeCombox.Text);
             ProductDL.addIntoProductList(newProduct);
-            //ProductDL.storeProductIntoFile;
+            ProductDL.storeProductIntoFile("C:\\3rd semester final project\\cs261f22finalpid33\\FinalProject\\FinalProject\\bin\\Debug\\ProductData.txt");
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void Backbtn_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void AddProduct_Load(object sender, EventArgs e)
         {
-
+            dateTimePicker.Format = DateTimePickerFormat.Custom;
+            dateTimePicker.CustomFormat = "dd-MM-yyyy";
+            //ProductDL.readProductFromFile("C:\\3rd semester final project\\cs261f22finalpid33\\FinalProject\\FinalProject\\bin\\Debug\\ProductData.txt");
         }
     }
 }

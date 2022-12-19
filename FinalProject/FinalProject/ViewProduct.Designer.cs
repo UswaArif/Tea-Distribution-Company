@@ -33,17 +33,7 @@ namespace FinalProject
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Backbtn = new System.Windows.Forms.Button();
-            this.Addbtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -56,17 +46,19 @@ namespace FinalProject
             this.panel1.BackColor = System.Drawing.Color.Red;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1, 2);
+            this.panel1.Location = new System.Drawing.Point(2, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(798, 51);
+            this.panel1.Size = new System.Drawing.Size(1463, 94);
             this.panel1.TabIndex = 51;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(44, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.Size = new System.Drawing.Size(117, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -77,9 +69,10 @@ namespace FinalProject
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(305, 8);
+            this.label1.Location = new System.Drawing.Point(559, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 31);
+            this.label1.Size = new System.Drawing.Size(319, 55);
             this.label1.TabIndex = 3;
             this.label1.Text = "View Product";
             // 
@@ -88,102 +81,35 @@ namespace FinalProject
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8,
-            this.Column9});
-            this.dataGridView1.Location = new System.Drawing.Point(25, 88);
+            this.dataGridView1.Location = new System.Drawing.Point(46, 162);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(749, 295);
+            this.dataGridView1.RowHeadersWidth = 72;
+            this.dataGridView1.Size = new System.Drawing.Size(1373, 545);
             this.dataGridView1.TabIndex = 52;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Name";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Stock";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Threshold";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Price";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Total Product Selled";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Expiry Date";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Size";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Edit";
-            this.Column8.Name = "Column8";
-            this.Column8.Text = "Edit";
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "Remove";
-            this.Column9.Name = "Column9";
-            this.Column9.Text = "Remove";
             // 
             // Backbtn
             // 
             this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Backbtn.FlatAppearance.BorderSize = 2;
             this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Backbtn.Location = new System.Drawing.Point(684, 407);
+            this.Backbtn.Location = new System.Drawing.Point(1254, 751);
+            this.Backbtn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Backbtn.Name = "Backbtn";
-            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.Size = new System.Drawing.Size(165, 59);
             this.Backbtn.TabIndex = 54;
             this.Backbtn.Text = "Back";
             this.Backbtn.UseVisualStyleBackColor = true;
             // 
-            // Addbtn
-            // 
-            this.Addbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Addbtn.FlatAppearance.BorderSize = 2;
-            this.Addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Addbtn.Location = new System.Drawing.Point(588, 407);
-            this.Addbtn.Name = "Addbtn";
-            this.Addbtn.Size = new System.Drawing.Size(90, 32);
-            this.Addbtn.TabIndex = 53;
-            this.Addbtn.Text = "Add";
-            this.Addbtn.UseVisualStyleBackColor = true;
-            // 
             // ViewProduct
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1467, 831);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Backbtn);
-            this.Controls.Add(this.Addbtn);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ViewProduct";
             this.Text = "ViewProduct";
             this.Load += new System.EventHandler(this.ViewProduct_Load);
@@ -201,16 +127,6 @@ namespace FinalProject
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewButtonColumn Column8;
-        private System.Windows.Forms.DataGridViewButtonColumn Column9;
         private System.Windows.Forms.Button Backbtn;
-        private System.Windows.Forms.Button Addbtn;
     }
 }

@@ -39,6 +39,18 @@ namespace SignIn.DL
             }
             return null;
         }
+        public static List<ProductBL> SearchBySize(string Size)
+        {
+            List<ProductBL> returnList = new List<ProductBL>();
+            foreach (ProductBL check in ProductList)
+            {
+                if (check.ProductSize1 == Size)
+                {
+                    returnList.Add(check);
+                }
+            }
+            return returnList;
+        }
         public static void storeProductIntoFile(string productPath)
         {
             StreamWriter file = new StreamWriter(productPath);
