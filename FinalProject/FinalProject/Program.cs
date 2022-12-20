@@ -16,15 +16,9 @@ namespace FinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< Updated upstream
-            Application.Run(new AddEmployee());
-=======
-<<<<<<< HEAD
-            Application.Run(new ViewRider());
-=======
-            Application.Run(new AddEmployee());
->>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
->>>>>>> Stashed changes
+
+            Application.Run(new SignIn());
+
         }
     }
 }
