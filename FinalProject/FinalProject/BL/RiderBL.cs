@@ -25,6 +25,7 @@ namespace Project.BL
             this.EmpSalary1 = salary;
             this.VehicleId1 = vehicleAssign;
             this.RiderArea1 = RiderArea;
+            this.IsSalaryPaid = isSalaryPaid;
             this.TotalDelivery1 = totalDelivery;
         } 
     }

@@ -92,11 +92,11 @@ namespace Project.DL
                     float latitude = float.Parse(splittedRecord[6]);
                     float longitude = float.Parse(splittedRecord[7]);
                     string vehicleAssign = splittedRecord[8];
-                    int totalDelivery = int.Parse(splittedRecord[9]);
+                    //int totalDelivery = int.Parse(splittedRecord[9]);
                     
                     area a = new area(latitude,longitude);
 
-                    RiderBL r = new RiderBL(name,CNIC,phoneNumber,Id,salary,vehicleAssign,totalDelivery,isSalaryPaid,a);
+                    RiderBL r = new RiderBL(name,CNIC,phoneNumber,Id,salary,vehicleAssign,0,isSalaryPaid,a);
                     addRiderIntoList(r);
                 }
                 f.Close();
@@ -111,7 +111,7 @@ namespace Project.DL
         public static void storeIntoFile(string path, RiderBL r)
         {
             StreamWriter f = new StreamWriter(path, true);
-            f.WriteLine(r.EmpName1 + "," + r.EmpId1 + "," + r.EmpPhone1 + "," + r.EmpSalary1 + "," + r.EmpCnic1 + "," + r.IsSalaryPaid + "," + r.RiderArea1.Latitude1 + "," + r.RiderArea1.Longitude1 + "," + r.TotalDelivery1);
+            f.WriteLine(r.EmpName1 + "," + r.EmpId1 + "," + r.EmpPhone1 + "," + r.EmpSalary1 + "," + r.EmpCnic1 + "," + r.IsSalaryPaid + "," + r.RiderArea1.Latitude1 + "," + r.RiderArea1.Longitude1 + "," + r.VehicleId1 + "," + r.TotalDelivery1 );
             f.Flush();
             f.Close();
         }
@@ -121,7 +121,7 @@ namespace Project.DL
             StreamWriter f = new StreamWriter(path);
             foreach (RiderBL storedrider in RiderList)
             { 
-                f.WriteLine(storedrider.EmpName1 + "," + storedrider.EmpId1 + "," + storedrider.EmpPhone1 + "," + storedrider.EmpSalary1 + "," + storedrider.EmpCnic1 + "," + storedrider.IsSalaryPaid + "," + storedrider.RiderArea1.Latitude1 + "," + storedrider.RiderArea1.Longitude1 + "," + storedrider.TotalDelivery1);
+                f.WriteLine(storedrider.EmpName1 + "," + storedrider.EmpId1 + "," + storedrider.EmpPhone1 + "," + storedrider.EmpSalary1 + "," + storedrider.EmpCnic1 + "," + storedrider.IsSalaryPaid + "," + storedrider.RiderArea1.Latitude1 + "," + storedrider.RiderArea1.Longitude1 + "," + storedrider.VehicleId1 + "," + storedrider.TotalDelivery1);
 
             }
             f.Flush();

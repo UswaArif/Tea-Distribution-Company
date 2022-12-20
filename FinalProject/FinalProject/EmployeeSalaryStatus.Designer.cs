@@ -33,9 +33,9 @@ namespace FinalProject
             this.Salarylbl = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.BonusNoCheckBox = new System.Windows.Forms.CheckBox();
+            this.BonusYesCheckBox = new System.Windows.Forms.CheckBox();
+            this.PayCheckBox = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -44,12 +44,13 @@ namespace FinalProject
             this.IDtxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Donebtn = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -97,38 +98,38 @@ namespace FinalProject
             this.label4.TabIndex = 74;
             this.label4.Text = "Bonus";
             // 
-            // checkBox4
+            // BonusNoCheckBox
             // 
-            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(335, 174);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(40, 17);
-            this.checkBox4.TabIndex = 73;
-            this.checkBox4.Text = "No";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.BonusNoCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BonusNoCheckBox.AutoSize = true;
+            this.BonusNoCheckBox.Location = new System.Drawing.Point(335, 174);
+            this.BonusNoCheckBox.Name = "BonusNoCheckBox";
+            this.BonusNoCheckBox.Size = new System.Drawing.Size(40, 17);
+            this.BonusNoCheckBox.TabIndex = 73;
+            this.BonusNoCheckBox.Text = "No";
+            this.BonusNoCheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // BonusYesCheckBox
             // 
-            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(202, 174);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(44, 17);
-            this.checkBox3.TabIndex = 72;
-            this.checkBox3.Text = "Yes";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.BonusYesCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BonusYesCheckBox.AutoSize = true;
+            this.BonusYesCheckBox.Location = new System.Drawing.Point(202, 174);
+            this.BonusYesCheckBox.Name = "BonusYesCheckBox";
+            this.BonusYesCheckBox.Size = new System.Drawing.Size(44, 17);
+            this.BonusYesCheckBox.TabIndex = 72;
+            this.BonusYesCheckBox.Text = "Yes";
+            this.BonusYesCheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // PayCheckBox
             // 
-            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(202, 128);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(47, 17);
-            this.checkBox1.TabIndex = 70;
-            this.checkBox1.Text = "Paid";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.PayCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PayCheckBox.AutoSize = true;
+            this.PayCheckBox.Location = new System.Drawing.Point(202, 128);
+            this.PayCheckBox.Name = "PayCheckBox";
+            this.PayCheckBox.Size = new System.Drawing.Size(47, 17);
+            this.PayCheckBox.TabIndex = 70;
+            this.PayCheckBox.Text = "Paid";
+            this.PayCheckBox.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -177,9 +178,9 @@ namespace FinalProject
             this.panel2.Controls.Add(this.Salarylbl);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.checkBox4);
-            this.panel2.Controls.Add(this.checkBox3);
-            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Controls.Add(this.BonusNoCheckBox);
+            this.panel2.Controls.Add(this.BonusYesCheckBox);
+            this.panel2.Controls.Add(this.PayCheckBox);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label8);
@@ -222,16 +223,6 @@ namespace FinalProject
             this.panel1.Size = new System.Drawing.Size(798, 51);
             this.panel1.TabIndex = 69;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
@@ -243,24 +234,48 @@ namespace FinalProject
             this.pictureBox2.TabIndex = 71;
             this.pictureBox2.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Donebtn
+            // 
+            this.Donebtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Donebtn.FlatAppearance.BorderSize = 2;
+            this.Donebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Donebtn.Location = new System.Drawing.Point(602, 397);
+            this.Donebtn.Name = "Donebtn";
+            this.Donebtn.Size = new System.Drawing.Size(90, 32);
+            this.Donebtn.TabIndex = 73;
+            this.Donebtn.Text = "Done";
+            this.Donebtn.UseVisualStyleBackColor = true;
+            this.Donebtn.Click += new System.EventHandler(this.Donebtn_Click);
+            // 
             // EmployeeSalaryStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Donebtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "EmployeeSalaryStatus";
             this.Text = "EmployeeSalaryStatus";
-            this.Load += new System.EventHandler(this.EmployeeSalaryStatus_Load);
+            
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -273,9 +288,9 @@ namespace FinalProject
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox BonusNoCheckBox;
+        private System.Windows.Forms.CheckBox BonusYesCheckBox;
+        private System.Windows.Forms.CheckBox PayCheckBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
@@ -284,5 +299,6 @@ namespace FinalProject
         private System.Windows.Forms.TextBox IDtxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button Donebtn;
     }
 }

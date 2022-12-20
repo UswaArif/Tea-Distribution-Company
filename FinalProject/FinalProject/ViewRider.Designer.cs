@@ -30,24 +30,17 @@ namespace FinalProject
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Backbtn = new System.Windows.Forms.Button();
-            this.Addbtn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnViewRiderBack = new System.Windows.Forms.Button();
+            this.btnViewRiderAdd = new System.Windows.Forms.Button();
+            this.gvRider = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gvRider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -62,15 +55,6 @@ namespace FinalProject
             this.panel1.Size = new System.Drawing.Size(798, 51);
             this.panel1.TabIndex = 59;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
@@ -83,102 +67,74 @@ namespace FinalProject
             this.label1.TabIndex = 3;
             this.label1.Text = "View Rider";
             // 
-            // Backbtn
+            // btnViewRiderBack
             // 
-            this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Backbtn.FlatAppearance.BorderSize = 2;
-            this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Backbtn.Location = new System.Drawing.Point(684, 406);
-            this.Backbtn.Name = "Backbtn";
-            this.Backbtn.Size = new System.Drawing.Size(90, 32);
-            this.Backbtn.TabIndex = 62;
-            this.Backbtn.Text = "Back";
-            this.Backbtn.UseVisualStyleBackColor = true;
+            this.btnViewRiderBack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnViewRiderBack.FlatAppearance.BorderSize = 2;
+            this.btnViewRiderBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewRiderBack.Location = new System.Drawing.Point(684, 406);
+            this.btnViewRiderBack.Name = "btnViewRiderBack";
+            this.btnViewRiderBack.Size = new System.Drawing.Size(90, 32);
+            this.btnViewRiderBack.TabIndex = 62;
+            this.btnViewRiderBack.Text = "Back";
+            this.btnViewRiderBack.UseVisualStyleBackColor = true;
+            this.btnViewRiderBack.Click += new System.EventHandler(this.btnViewRiderBack_Click);
             // 
-            // Addbtn
+            // btnViewRiderAdd
             // 
-            this.Addbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Addbtn.FlatAppearance.BorderSize = 2;
-            this.Addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Addbtn.Location = new System.Drawing.Point(588, 406);
-            this.Addbtn.Name = "Addbtn";
-            this.Addbtn.Size = new System.Drawing.Size(90, 32);
-            this.Addbtn.TabIndex = 61;
-            this.Addbtn.Text = "Add";
-            this.Addbtn.UseVisualStyleBackColor = true;
+            this.btnViewRiderAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnViewRiderAdd.FlatAppearance.BorderSize = 2;
+            this.btnViewRiderAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewRiderAdd.Location = new System.Drawing.Point(588, 406);
+            this.btnViewRiderAdd.Name = "btnViewRiderAdd";
+            this.btnViewRiderAdd.Size = new System.Drawing.Size(90, 32);
+            this.btnViewRiderAdd.TabIndex = 61;
+            this.btnViewRiderAdd.Text = "Add";
+            this.btnViewRiderAdd.UseVisualStyleBackColor = true;
+            this.btnViewRiderAdd.Click += new System.EventHandler(this.btnViewRiderAdd_Click);
             // 
-            // dataGridView1
+            // gvRider
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column10,
+            this.gvRider.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.gvRider.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.gvRider.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvRider.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Count,
             this.Column8,
             this.Column9});
-            this.dataGridView1.Location = new System.Drawing.Point(25, 87);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(749, 295);
-            this.dataGridView1.TabIndex = 60;
+            this.gvRider.Location = new System.Drawing.Point(25, 87);
+            this.gvRider.Name = "gvRider";
+            this.gvRider.Size = new System.Drawing.Size(749, 295);
+            this.gvRider.TabIndex = 60;
+            this.gvRider.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvRider_CellContentClick);
             // 
-            // Column1
+            // pictureBox1
             // 
-            this.Column1.HeaderText = "Name";
-            this.Column1.Name = "Column1";
+            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
-            // Column2
+            // Count
             // 
-            this.Column2.HeaderText = "ID Number";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "CNIC";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Phone Number";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Salary";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Vehicle Assigned";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Longitude";
-            this.Column7.Name = "Column7";
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "Latitude";
-            this.Column10.Name = "Column10";
+            this.Count.HeaderText = "Count";
+            this.Count.Name = "Count";
             // 
             // Column8
             // 
             this.Column8.HeaderText = "Edit";
             this.Column8.Name = "Column8";
             this.Column8.Text = "Edit";
+            this.Column8.UseColumnTextForButtonValue = true;
             // 
             // Column9
             // 
-            this.Column9.HeaderText = "Remove";
+            this.Column9.HeaderText = "Delete";
             this.Column9.Name = "Column9";
-            this.Column9.Text = "Remove";
+            this.Column9.Text = "Delete";
+            this.Column9.UseColumnTextForButtonValue = true;
             // 
             // ViewRider
             // 
@@ -186,15 +142,16 @@ namespace FinalProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.Backbtn);
-            this.Controls.Add(this.Addbtn);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnViewRiderBack);
+            this.Controls.Add(this.btnViewRiderAdd);
+            this.Controls.Add(this.gvRider);
             this.Name = "ViewRider";
             this.Text = "ViewRider";
+            this.Load += new System.EventHandler(this.ViewRider_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gvRider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -204,17 +161,10 @@ namespace FinalProject
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Backbtn;
-        private System.Windows.Forms.Button Addbtn;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.Button btnViewRiderBack;
+        private System.Windows.Forms.Button btnViewRiderAdd;
+        private System.Windows.Forms.DataGridView gvRider;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Count;
         private System.Windows.Forms.DataGridViewButtonColumn Column8;
         private System.Windows.Forms.DataGridViewButtonColumn Column9;
     }

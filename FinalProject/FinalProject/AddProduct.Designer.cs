@@ -59,7 +59,15 @@ namespace FinalProject
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.label2.Location = new System.Drawing.Point(51, 40);
+=======
+<<<<<<< HEAD
+            this.label2.Location = new System.Drawing.Point(15, 19);
+=======
+            this.label2.Location = new System.Drawing.Point(51, 40);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 16);
             this.label2.TabIndex = 40;
@@ -70,7 +78,15 @@ namespace FinalProject
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.label8.Location = new System.Drawing.Point(51, 77);
+=======
+<<<<<<< HEAD
+            this.label8.Location = new System.Drawing.Point(15, 56);
+=======
+            this.label8.Location = new System.Drawing.Point(51, 77);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(76, 16);
             this.label8.TabIndex = 41;
@@ -79,7 +95,15 @@ namespace FinalProject
             // ProductPricetxt
             // 
             this.ProductPricetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+<<<<<<< Updated upstream
             this.ProductPricetxt.Location = new System.Drawing.Point(303, 145);
+=======
+<<<<<<< HEAD
+            this.ProductPricetxt.Location = new System.Drawing.Point(267, 124);
+=======
+            this.ProductPricetxt.Location = new System.Drawing.Point(303, 145);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.ProductPricetxt.Name = "ProductPricetxt";
             this.ProductPricetxt.Size = new System.Drawing.Size(316, 20);
             this.ProductPricetxt.TabIndex = 38;
@@ -92,7 +116,15 @@ namespace FinalProject
             "Small",
             "Medium",
             "Large"});
+<<<<<<< Updated upstream
             this.SizeCombox.Location = new System.Drawing.Point(303, 250);
+=======
+<<<<<<< HEAD
+            this.SizeCombox.Location = new System.Drawing.Point(267, 229);
+=======
+            this.SizeCombox.Location = new System.Drawing.Point(303, 250);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.SizeCombox.Name = "SizeCombox";
             this.SizeCombox.Size = new System.Drawing.Size(316, 21);
             this.SizeCombox.TabIndex = 51;
@@ -100,7 +132,15 @@ namespace FinalProject
             // ProductThresholdtxt
             // 
             this.ProductThresholdtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+<<<<<<< Updated upstream
             this.ProductThresholdtxt.Location = new System.Drawing.Point(303, 113);
+=======
+<<<<<<< HEAD
+            this.ProductThresholdtxt.Location = new System.Drawing.Point(267, 92);
+=======
+            this.ProductThresholdtxt.Location = new System.Drawing.Point(303, 113);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.ProductThresholdtxt.Name = "ProductThresholdtxt";
             this.ProductThresholdtxt.Size = new System.Drawing.Size(316, 20);
             this.ProductThresholdtxt.TabIndex = 47;
@@ -110,7 +150,15 @@ namespace FinalProject
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.label6.Location = new System.Drawing.Point(51, 220);
+=======
+<<<<<<< HEAD
+            this.label6.Location = new System.Drawing.Point(15, 199);
+=======
+            this.label6.Location = new System.Drawing.Point(51, 220);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 16);
             this.label6.TabIndex = 45;
@@ -119,7 +167,15 @@ namespace FinalProject
             // TotalProductSelledtxt
             // 
             this.TotalProductSelledtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+<<<<<<< Updated upstream
             this.TotalProductSelledtxt.Location = new System.Drawing.Point(303, 181);
+=======
+<<<<<<< HEAD
+            this.TotalProductSelledtxt.Location = new System.Drawing.Point(267, 160);
+=======
+            this.TotalProductSelledtxt.Location = new System.Drawing.Point(303, 181);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.TotalProductSelledtxt.Name = "TotalProductSelledtxt";
             this.TotalProductSelledtxt.Size = new System.Drawing.Size(316, 20);
             this.TotalProductSelledtxt.TabIndex = 48;
@@ -129,7 +185,15 @@ namespace FinalProject
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.label4.Location = new System.Drawing.Point(51, 184);
+=======
+<<<<<<< HEAD
+            this.label4.Location = new System.Drawing.Point(15, 163);
+=======
+            this.label4.Location = new System.Drawing.Point(51, 184);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(164, 16);
             this.label4.TabIndex = 43;
@@ -138,7 +202,15 @@ namespace FinalProject
             // ProductNametxt
             // 
             this.ProductNametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+<<<<<<< Updated upstream
             this.ProductNametxt.Location = new System.Drawing.Point(303, 37);
+=======
+<<<<<<< HEAD
+            this.ProductNametxt.Location = new System.Drawing.Point(267, 16);
+=======
+            this.ProductNametxt.Location = new System.Drawing.Point(303, 37);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.ProductNametxt.Name = "ProductNametxt";
             this.ProductNametxt.Size = new System.Drawing.Size(316, 20);
             this.ProductNametxt.TabIndex = 49;
@@ -148,7 +220,15 @@ namespace FinalProject
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.label3.Location = new System.Drawing.Point(51, 113);
+=======
+<<<<<<< HEAD
+            this.label3.Location = new System.Drawing.Point(15, 92);
+=======
+            this.label3.Location = new System.Drawing.Point(51, 113);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 16);
             this.label3.TabIndex = 42;
@@ -159,7 +239,15 @@ namespace FinalProject
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.label7.Location = new System.Drawing.Point(51, 253);
+=======
+<<<<<<< HEAD
+            this.label7.Location = new System.Drawing.Point(15, 232);
+=======
+            this.label7.Location = new System.Drawing.Point(51, 253);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(75, 16);
             this.label7.TabIndex = 46;
@@ -168,7 +256,15 @@ namespace FinalProject
             // ProductStocktxt
             // 
             this.ProductStocktxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+<<<<<<< Updated upstream
             this.ProductStocktxt.Location = new System.Drawing.Point(303, 77);
+=======
+<<<<<<< HEAD
+            this.ProductStocktxt.Location = new System.Drawing.Point(267, 56);
+=======
+            this.ProductStocktxt.Location = new System.Drawing.Point(303, 77);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.ProductStocktxt.Name = "ProductStocktxt";
             this.ProductStocktxt.Size = new System.Drawing.Size(316, 20);
             this.ProductStocktxt.TabIndex = 50;
@@ -178,7 +274,15 @@ namespace FinalProject
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.label5.Location = new System.Drawing.Point(51, 149);
+=======
+<<<<<<< HEAD
+            this.label5.Location = new System.Drawing.Point(15, 128);
+=======
+            this.label5.Location = new System.Drawing.Point(51, 149);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 16);
             this.label5.TabIndex = 44;
@@ -190,7 +294,15 @@ namespace FinalProject
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
+<<<<<<< Updated upstream
             this.label1.Location = new System.Drawing.Point(305, 8);
+=======
+<<<<<<< HEAD
+            this.label1.Location = new System.Drawing.Point(301, 8);
+=======
+            this.label1.Location = new System.Drawing.Point(305, 8);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 31);
             this.label1.TabIndex = 3;
@@ -213,9 +325,21 @@ namespace FinalProject
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.ProductStocktxt);
             this.panel2.Controls.Add(this.label5);
+<<<<<<< Updated upstream
             this.panel2.Location = new System.Drawing.Point(72, 71);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(671, 309);
+=======
+<<<<<<< HEAD
+            this.panel2.Location = new System.Drawing.Point(68, 71);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(599, 266);
+=======
+            this.panel2.Location = new System.Drawing.Point(72, 71);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(671, 309);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.panel2.TabIndex = 51;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -223,7 +347,15 @@ namespace FinalProject
             // 
             this.dateTimePicker.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+<<<<<<< Updated upstream
             this.dateTimePicker.Location = new System.Drawing.Point(303, 220);
+=======
+<<<<<<< HEAD
+            this.dateTimePicker.Location = new System.Drawing.Point(267, 199);
+=======
+            this.dateTimePicker.Location = new System.Drawing.Point(303, 220);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(316, 20);
             this.dateTimePicker.TabIndex = 53;
@@ -237,7 +369,15 @@ namespace FinalProject
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
+<<<<<<< Updated upstream
             this.panel1.Size = new System.Drawing.Size(798, 51);
+=======
+<<<<<<< HEAD
+            this.panel1.Size = new System.Drawing.Size(790, 51);
+=======
+            this.panel1.Size = new System.Drawing.Size(798, 51);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.panel1.TabIndex = 50;
             // 
             // pictureBox1
@@ -255,7 +395,15 @@ namespace FinalProject
             this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Backbtn.FlatAppearance.BorderSize = 2;
             this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+<<<<<<< Updated upstream
             this.Backbtn.Location = new System.Drawing.Point(699, 406);
+=======
+<<<<<<< HEAD
+            this.Backbtn.Location = new System.Drawing.Point(691, 411);
+=======
+            this.Backbtn.Location = new System.Drawing.Point(699, 406);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.Backbtn.Name = "Backbtn";
             this.Backbtn.Size = new System.Drawing.Size(90, 32);
             this.Backbtn.TabIndex = 49;
@@ -268,7 +416,15 @@ namespace FinalProject
             this.Addbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Addbtn.FlatAppearance.BorderSize = 2;
             this.Addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+<<<<<<< Updated upstream
             this.Addbtn.Location = new System.Drawing.Point(603, 406);
+=======
+<<<<<<< HEAD
+            this.Addbtn.Location = new System.Drawing.Point(595, 411);
+=======
+            this.Addbtn.Location = new System.Drawing.Point(603, 406);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.Addbtn.Name = "Addbtn";
             this.Addbtn.Size = new System.Drawing.Size(90, 32);
             this.Addbtn.TabIndex = 48;
@@ -280,12 +436,28 @@ namespace FinalProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(747, 406);
+=======
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(739, 411);
+=======
+            this.ClientSize = new System.Drawing.Size(747, 406);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.Addbtn);
+<<<<<<< Updated upstream
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
+<<<<<<< HEAD
+            this.Margin = new System.Windows.Forms.Padding(2);
+=======
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> cf03b95628d8003731b83c6afba8ef994d744c5b
+>>>>>>> Stashed changes
             this.Name = "AddProduct";
             this.Text = "AddProduct";
             this.Load += new System.EventHandler(this.AddProduct_Load);
