@@ -128,5 +128,17 @@ namespace Project.DL
 
             f.Close();
         }
+        public static LinkedList<RiderBL> ReturnSpecificAreaRider(area a)
+        {
+            LinkedList<RiderBL> rider = new LinkedList<RiderBL>();
+            foreach(RiderBL r in RiderList)
+            {
+                if(r.RiderArea1.Latitude1==a.Latitude1 && r.RiderArea1.Longitude1== a.Longitude1)
+                {
+                    rider.AddLast(r);
+                }
+            }
+            return rider;
+        }
     }
 }
