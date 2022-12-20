@@ -138,6 +138,7 @@
     </Compile>
     <Compile Include="DL\CustomerDL.cs" />
     <Compile Include="DL\EmployeeDL.cs" />
+    <Compile Include="DL\ExpenseManagement.cs" />
     <Compile Include="DL\OrderDL.cs" />
     <Compile Include="DL\ProductDL.cs" />
     <Compile Include="DL\RiderDL.cs" />
@@ -190,11 +191,11 @@
     <Compile Include="EmployeeSalaryStatus.Designer.cs">
       <DependentUpon>EmployeeSalaryStatus.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExpenseManagement.cs">
+    <Compile Include="ExpenseManagementUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExpenseManagement.Designer.cs">
-      <DependentUpon>ExpenseManagement.cs</DependentUpon>
+    <Compile Include="ExpenseManagementUI.Designer.cs">
+      <DependentUpon>ExpenseManagementUI.cs</DependentUpon>
     </Compile>
     <Compile Include="ForgetPassword.cs">
       <SubType>Form</SubType>
@@ -379,8 +380,8 @@
     <EmbeddedResource Include="EmployeeSalaryStatus.resx">
       <DependentUpon>EmployeeSalaryStatus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExpenseManagement.resx">
-      <DependentUpon>ExpenseManagement.cs</DependentUpon>
+    <EmbeddedResource Include="ExpenseManagementUI.resx">
+      <DependentUpon>ExpenseManagementUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgetPassword.resx">
       <DependentUpon>ForgetPassword.cs</DependentUpon>

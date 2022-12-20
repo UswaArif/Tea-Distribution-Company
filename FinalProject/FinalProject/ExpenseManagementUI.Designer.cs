@@ -1,7 +1,7 @@
 ﻿
 namespace FinalProject
 {
-    partial class ExpenseManagement
+    partial class ExpenseManagementUI
     {
         /// <summary>
         /// Required designer variable.
@@ -49,17 +49,19 @@ namespace FinalProject
             this.panel1.BackColor = System.Drawing.Color.Red;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1, 0);
+            this.panel1.Location = new System.Drawing.Point(2, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(798, 51);
+            this.panel1.Size = new System.Drawing.Size(1463, 94);
             this.panel1.TabIndex = 67;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FinalProject.Properties.Resources.download__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(44, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 51);
+            this.pictureBox1.Size = new System.Drawing.Size(117, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -70,9 +72,10 @@ namespace FinalProject
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(247, 8);
+            this.label1.Location = new System.Drawing.Point(453, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(301, 31);
+            this.label1.Size = new System.Drawing.Size(525, 55);
             this.label1.TabIndex = 3;
             this.label1.Text = "Expense Management";
             // 
@@ -81,12 +84,14 @@ namespace FinalProject
             this.Backbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Backbtn.FlatAppearance.BorderSize = 2;
             this.Backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Backbtn.Location = new System.Drawing.Point(684, 405);
+            this.Backbtn.Location = new System.Drawing.Point(1254, 748);
+            this.Backbtn.Margin = new System.Windows.Forms.Padding(6);
             this.Backbtn.Name = "Backbtn";
-            this.Backbtn.Size = new System.Drawing.Size(90, 32);
+            this.Backbtn.Size = new System.Drawing.Size(165, 59);
             this.Backbtn.TabIndex = 70;
             this.Backbtn.Text = "Back";
             this.Backbtn.UseVisualStyleBackColor = true;
+            this.Backbtn.Click += new System.EventHandler(this.Backbtn_Click);
             // 
             // dataGridView1
             // 
@@ -97,36 +102,46 @@ namespace FinalProject
             this.Column1,
             this.Column2,
             this.Column3});
-            this.dataGridView1.Location = new System.Drawing.Point(228, 134);
+            this.dataGridView1.Location = new System.Drawing.Point(418, 247);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(357, 221);
+            this.dataGridView1.RowHeadersWidth = 72;
+            this.dataGridView1.Size = new System.Drawing.Size(655, 408);
             this.dataGridView1.TabIndex = 68;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Month";
+            this.Column1.MinimumWidth = 9;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 175;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Profit";
+            this.Column2.MinimumWidth = 9;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 175;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Loss";
+            this.Column3.MinimumWidth = 9;
             this.Column3.Name = "Column3";
+            this.Column3.Width = 175;
             // 
-            // ExpenseManagement
+            // ExpenseManagementUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1467, 831);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "ExpenseManagement";
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.Name = "ExpenseManagementUI";
             this.Text = "ExpenseManagement";
+            this.Load += new System.EventHandler(this.ExpenseManagement_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
