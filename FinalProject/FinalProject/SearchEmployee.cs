@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Project.BL;
+using Project.DL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,13 @@ namespace FinalProject
         public SearchEmployee()
         {
             InitializeComponent();
+        }
+
+        private void Searchbtn_Click(object sender, EventArgs e)
+        {
+            List<EmployeeBL> EmployeeList = new List<EmployeeBL>();
+            EmployeeList = EmployeeDL.searchEmployee(CNICtxt.Text);
+            dataGridView1.DataSource = EmployeeList;
         }
     }
 }

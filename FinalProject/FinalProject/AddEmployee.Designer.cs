@@ -135,6 +135,7 @@ namespace FinalProject
             this.Addbtn.TabIndex = 53;
             this.Addbtn.Text = "Add";
             this.Addbtn.UseVisualStyleBackColor = true;
+            this.Addbtn.Click += new System.EventHandler(this.Addbtn_Click);
             // 
             // panel2
             // 
@@ -222,6 +223,7 @@ namespace FinalProject
             this.Backbtn.TabIndex = 54;
             this.Backbtn.Text = "Back";
             this.Backbtn.UseVisualStyleBackColor = true;
+            this.Backbtn.Click += new System.EventHandler(this.Backbtn_Click);
             // 
             // pictureBox2
             // 
@@ -246,6 +248,7 @@ namespace FinalProject
             this.Controls.Add(this.Backbtn);
             this.Name = "AddEmployee";
             this.Text = "AddEmployee";
+            this.Load += new System.EventHandler(this.AddEmployee_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

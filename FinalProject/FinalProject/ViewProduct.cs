@@ -25,5 +25,10 @@ namespace FinalProject
             List<ProductBL> ListToBeShown = new List<ProductBL>(ProductDL.ProductList);
             dataGridView1.DataSource = ListToBeShown;
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

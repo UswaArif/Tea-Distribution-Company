@@ -63,6 +63,7 @@ namespace FinalProject
             this.Editbtn.TabIndex = 58;
             this.Editbtn.Text = "Edit";
             this.Editbtn.UseVisualStyleBackColor = true;
+            this.Editbtn.Click += new System.EventHandler(this.Editbtn_Click);
             // 
             // panel2
             // 
@@ -188,6 +189,7 @@ namespace FinalProject
             this.Backbtn.TabIndex = 59;
             this.Backbtn.Text = "Back";
             this.Backbtn.UseVisualStyleBackColor = true;
+            this.Backbtn.Click += new System.EventHandler(this.Backbtn_Click);
             // 
             // panel1
             // 

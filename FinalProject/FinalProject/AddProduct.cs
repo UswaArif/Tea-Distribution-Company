@@ -39,5 +39,10 @@ namespace FinalProject
             dateTimePicker.CustomFormat = "dd-MM-yyyy";
             //ProductDL.readProductFromFile("C:\\3rd semester final project\\cs261f22finalpid33\\FinalProject\\FinalProject\\bin\\Debug\\ProductData.txt");
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

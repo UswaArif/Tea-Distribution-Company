@@ -30,11 +30,16 @@ namespace Project.DL
             return null;
         }
 
-        public static EmployeeBL searchEmployee(string ID)
+        internal static void storeAllEmployeeIntoFile(EmployeeBL newEmployee)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static EmployeeBL searchEmployee(string CNIC)
         {
             foreach (EmployeeBL e1 in EmpList1)
             {
-                if (e1.EmpId1 == ID)
+                if (e1.EmpCnic1 == CNIC)
                 {
                     return e1;
                 }

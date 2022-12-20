@@ -127,6 +127,7 @@ namespace FinalProject
             this.Searchbtn.TabIndex = 68;
             this.Searchbtn.Text = "Search";
             this.Searchbtn.UseVisualStyleBackColor = true;
+            this.Searchbtn.Click += new System.EventHandler(this.Searchbtn_Click);
             // 
             // CNICtxt
             // 

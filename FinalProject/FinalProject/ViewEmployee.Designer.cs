@@ -92,6 +92,7 @@ namespace FinalProject
             this.Backbtn.TabIndex = 58;
             this.Backbtn.Text = "Back";
             this.Backbtn.UseVisualStyleBackColor = true;
+            this.Backbtn.Click += new System.EventHandler(this.Backbtn_Click);
             // 
             // Addbtn
             // 
@@ -104,6 +105,7 @@ namespace FinalProject
             this.Addbtn.TabIndex = 57;
             this.Addbtn.Text = "Add";
             this.Addbtn.UseVisualStyleBackColor = true;
+            this.Addbtn.Click += new System.EventHandler(this.Addbtn_Click);
             // 
             // dataGridView1
             // 
@@ -122,6 +124,7 @@ namespace FinalProject
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(749, 295);
             this.dataGridView1.TabIndex = 56;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Column1
             // 
